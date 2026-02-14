@@ -56,7 +56,9 @@ class VectorStore:
         query_vector = np.array(query_embedding.embeddings, dtype="float32")
         faiss.normalize_L2(query_vector)
 
+        k = min(k, len(self.documents))
         scores, indices = self.index.search(query_vector, k)
+
 
         results = []
         for score, idx in zip(scores[0], indices[0]):
