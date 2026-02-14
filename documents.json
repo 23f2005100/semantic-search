@@ -1,0 +1,962 @@
+[
+  {
+    "id": 0,
+    "content": "Data science has become increasingly essential for the production of official statistics, as it enables the automated collection, processing, and analysis of large amounts of data. With such data science practices in place, it enables more timely, more insightful and more flexible reporting. However, the quality and integrity of data-science-driven statistics rely on the accuracy and reliability of the data sources and the machine learning techniques that support them. In particular, changes in data sources are inevitable to occur and pose significant risks that are crucial to address in the context of machine learning for official statistics.\n  This paper gives an overview of the main risks, liabilities, and uncertainties associated with changing data sources in the context of machine learning for official statistics. We provide a checklist of the most prevalent origins and causes of changing data sources; not only on a technical level but also regarding ownership, ethics, regulation, and public perception. Next, we highlight the repercussions of changing data sources on statistical reporting. These include technical effects such as concept drift, bias, availability, validity, accuracy and completeness, but also the neutrality and potential discontinuation of the statistical offering. We offer a few important precautionary measures, such as enhancing robustness in both data sourcing and statistical techniques, and thorough monitoring. In doing so, machine learning-based official statistics can maintain integrity, reliability, consistency, and relevance in policy-making, decision-making, and public discourse.",
+    "metadata": {
+      "title": "Changing Data Sources in the Age of Machine Learning for Official Statistics",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 1,
+    "content": "Modern biology frequently relies on machine learning to provide predictions and improve decision processes. There have been recent calls for more scrutiny on machine learning performance and possible limitations. Here we present a set of community-wide recommendations aiming to help establish standards of supervised machine learning validation in biology. Adopting a structured methods description for machine learning based on data, optimization, model, evaluation (DOME) will aim to help both reviewers and readers to better understand and assess the performance and limitations of a method or outcome. The recommendations are formulated as questions to anyone wishing to pursue implementation of a machine learning algorithm. Answers to these questions can be easily included in the supplementary material of published papers.",
+    "metadata": {
+      "title": "DOME: Recommendations for supervised machine learning validation in biology",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 2,
+    "content": "Learning curves are a concept from social sciences that has been adopted in the context of machine learning to assess the performance of a learning algorithm with respect to a certain resource, e.g., the number of training examples or the number of training iterations. Learning curves have important applications in several machine learning contexts, most notably in data acquisition, early stopping of model training, and model selection. For instance, learning curves can be used to model the performance of the combination of an algorithm and its hyperparameter configuration, providing insights into their potential suitability at an early stage and often expediting the algorithm selection process. Various learning curve models have been proposed to use learning curves for decision making. Some of these models answer the binary decision question of whether a given algorithm at a certain budget will outperform a certain reference performance, whereas more complex models predict the entire learning curve of an algorithm. We contribute a framework that categorises learning curve approaches using three criteria: the decision-making situation they address, the intrinsic learning curve question they answer and the type of resources they use. We survey papers from the literature and classify them into this framework.",
+    "metadata": {
+      "title": "Learning Curves for Decision Making in Supervised Machine Learning: A Survey",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 3,
+    "content": "Online active learning is a paradigm in machine learning that aims to select the most informative data points to label from a data stream. The problem of minimizing the cost associated with collecting labeled observations has gained a lot of attention in recent years, particularly in real-world applications where data is only available in an unlabeled form. Annotating each observation can be time-consuming and costly, making it difficult to obtain large amounts of labeled data. To overcome this issue, many active learning strategies have been proposed in the last decades, aiming to select the most informative observations for labeling in order to improve the performance of machine learning models. These approaches can be broadly divided into two categories: static pool-based and stream-based active learning. Pool-based active learning involves selecting a subset of observations from a closed pool of unlabeled data, and it has been the focus of many surveys and literature reviews. However, the growing availability of data streams has led to an increase in the number of approaches that focus on online active learning, which involves continuously selecting and labeling observations as they arrive in a stream. This work aims to provide an overview of the most recently proposed approaches for selecting the most informative observations from data streams in real time. We review the various techniques that have been proposed and discuss their strengths and limitations, as well as the challenges and opportunities that exist in this area of research.",
+    "metadata": {
+      "title": "Active learning for data streams: a survey",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 4,
+    "content": "The ability to explain decisions made by machine learning models remains one of the most significant hurdles towards widespread adoption of AI in highly sensitive areas such as medicine, cybersecurity or autonomous driving. Great interest exists in understanding which features of the input data prompt model decision making. In this contribution, we propose a novel approach to identify relevant features of the input data, inspired by methods from the energy landscapes field, developed in the physical sciences. By identifying conserved weights within groups of minima of the loss landscapes, we can identify the drivers of model decision making. Analogues to this idea exist in the molecular sciences, where coordinate invariants or order parameters are employed to identify critical features of a molecule. However, no such approach exists for machine learning loss landscapes. We will demonstrate the applicability of energy landscape methods to machine learning models and give examples, both synthetic and from the real world, for how these methods can help to make models more interpretable.",
+    "metadata": {
+      "title": "Physics-Inspired Interpretability Of Machine Learning Models",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 5,
+    "content": "Machine Learning (ML) has recently shown tremendous success in modeling various healthcare prediction tasks, ranging from disease diagnosis and prognosis to patient treatment. Due to the sensitive nature of medical data, privacy must be considered along the entire ML pipeline, from model training to inference. In this paper, we conduct a review of recent literature concerning Privacy-Preserving Machine Learning (PPML) for healthcare. We primarily focus on privacy-preserving training and inference-as-a-service, and perform a comprehensive review of existing trends, identify challenges, and discuss opportunities for future research directions. The aim of this review is to guide the development of private and efficient ML models in healthcare, with the prospects of translating research efforts into real-world settings.",
+    "metadata": {
+      "title": "Privacy-preserving machine learning for healthcare: open challenges and future perspectives",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 6,
+    "content": "The proliferation of fake news and its propagation on social media has become a major concern due to its ability to create devastating impacts. Different machine learning approaches have been suggested to detect fake news. However, most of those focused on a specific type of news (such as political) which leads us to the question of dataset-bias of the models used. In this research, we conducted a benchmark study to assess the performance of different applicable machine learning approaches on three different datasets where we accumulated the largest and most diversified one. We explored a number of advanced pre-trained language models for fake news detection along with the traditional and deep learning ones and compared their performances from different aspects for the first time to the best of our knowledge. We find that BERT and similar pre-trained models perform the best for fake news detection, especially with very small dataset. Hence, these models are significantly better option for languages with limited electronic contents, i.e., training data. We also carried out several analysis based on the models' performance, article's topic, article's length, and discussed different lessons learned from them. We believe that this benchmark study will help the research community to explore further and news sites/blogs to select the most appropriate fake news detection method.",
+    "metadata": {
+      "title": "A Benchmark Study of Machine Learning Models for Online Fake News Detection",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 7,
+    "content": "This article provides the first survey of computational models of emotion in reinforcement learning (RL) agents. The survey focuses on agent/robot emotions, and mostly ignores human user emotions. Emotions are recognized as functional in decision-making by influencing motivation and action selection. Therefore, computational emotion models are usually grounded in the agent's decision making architecture, of which RL is an important subclass. Studying emotions in RL-based agents is useful for three research fields. For machine learning (ML) researchers, emotion models may improve learning efficiency. For the interactive ML and human-robot interaction (HRI) community, emotions can communicate state and enhance user investment. Lastly, it allows affective modelling (AM) researchers to investigate their emotion theories in a successful AI agent class. This survey provides background on emotion theory and RL. It systematically addresses 1) from what underlying dimensions (e.g., homeostasis, appraisal) emotions can be derived and how these can be modelled in RL-agents, 2) what types of emotions have been derived from these dimensions, and 3) how these emotions may either influence the learning efficiency of the agent or be useful as social signals. We also systematically compare evaluation criteria, and draw connections to important RL sub-domains like (intrinsic) motivation and model-based RL. In short, this survey provides both a practical overview for engineers wanting to implement emotions in their RL agents, and identifies challenges and directions for future emotion-RL research.",
+    "metadata": {
+      "title": "Emotion in Reinforcement Learning Agents and Robots: A Survey",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 8,
+    "content": "Efficient approximation lies at the heart of large-scale machine learning problems. In this paper, we propose a novel, robust maximum entropy algorithm, which is capable of dealing with hundreds of moments and allows for computationally efficient approximations. We showcase the usefulness of the proposed method, its equivalence to constrained Bayesian variational inference and demonstrate its superiority over existing approaches in two applications, namely, fast log determinant estimation and information-theoretic Bayesian optimisation.",
+    "metadata": {
+      "title": "MEMe: An Accurate Maximum Entropy Method for Efficient Approximations in Large-Scale Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 9,
+    "content": "This research paper delves into the innovative integration of Shannon entropy and rough set theory, presenting a novel approach to generalize the evaluation approach in machine learning. The conventional application of entropy, primarily focused on information uncertainty, is extended through its combination with rough set theory to offer a deeper insight into data's intrinsic structure and the interpretability of machine learning models. We introduce a comprehensive framework that synergizes the granularity of rough set theory with the uncertainty quantification of Shannon entropy, applied across a spectrum of machine learning algorithms. Our methodology is rigorously tested on various datasets, showcasing its capability to not only assess predictive performance but also to illuminate the underlying data complexity and model robustness. The results underscore the utility of this integrated approach in enhancing the evaluation landscape of machine learning, offering a multi-faceted perspective that balances accuracy with a profound understanding of data attributes and model dynamics. This paper contributes a groundbreaking perspective to machine learning evaluation, proposing a method that encapsulates a holistic view of model performance, thereby facilitating more informed decision-making in model selection and application.",
+    "metadata": {
+      "title": "Generalizing Machine Learning Evaluation through the Integration of Shannon Entropy and Rough Set Theory",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 10,
+    "content": "We seek to enable classic processing of continuous ultra-sparse spatiotemporal data generated by event-based sensors with dense machine learning models. We propose a novel hybrid pipeline composed of asynchronous sensing and synchronous processing that combines several ideas: (1) an embedding based on PointNet models -- the ALERT module -- that can continuously integrate new and dismiss old events thanks to a leakage mechanism, (2) a flexible readout of the embedded data that allows to feed any downstream model with always up-to-date features at any sampling rate, (3) exploiting the input sparsity in a patch-based approach inspired by Vision Transformer to optimize the efficiency of the method. These embeddings are then processed by a transformer model trained for object and gesture recognition. Using this approach, we achieve performances at the state-of-the-art with a lower latency than competitors. We also demonstrate that our asynchronous model can operate at any desired sampling rate.",
+    "metadata": {
+      "title": "ALERT-Transformer: Bridging Asynchronous and Synchronous Machine Learning for Real-Time Event-based Spatio-Temporal Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 11,
+    "content": "We propose unsupervised representation learning and feature extraction from dendrograms. The commonly used Minimax distance measures correspond to building a dendrogram with single linkage criterion, with defining specific forms of a level function and a distance function over that. Therefore, we extend this method to arbitrary dendrograms. We develop a generalized framework wherein different distance measures and representations can be inferred from different types of dendrograms, level functions and distance functions. Via an appropriate embedding, we compute a vector-based representation of the inferred distances, in order to enable many numerical machine learning algorithms to employ such distances. Then, to address the model selection problem, we study the aggregation of different dendrogram-based distances respectively in solution space and in representation space in the spirit of deep representations. In the first approach, for example for the clustering problem, we build a graph with positive and negative edge weights according to the consistency of the clustering labels of different objects among different solutions, in the context of ensemble methods. Then, we use an efficient variant of correlation clustering to produce the final clusters. In the second approach, we investigate the combination of different distances and features sequentially in the spirit of multi-layered architectures to obtain the final features. Finally, we demonstrate the effectiveness of our approach via several numerical studies.",
+    "metadata": {
+      "title": "Learning Representations from Dendrograms",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 12,
+    "content": "International economics has a long history of improving our understanding of factors causing trade, and the consequences of free flow of goods and services across countries. The recent shocks to the free trade regime, especially trade disputes among major economies, as well as black swan events, such as trade wars and pandemics, raise the need for improved predictions to inform policy decisions. AI methods are allowing economists to solve such prediction problems in new ways. In this manuscript, we present novel methods that predict and associate food and agricultural commodities traded internationally. Association Rules (AR) analysis has been deployed successfully for economic scenarios at the consumer or store level, such as for market basket analysis. In our work however, we present analysis of imports and exports associations and their effects on commodity trade flows. Moreover, Ensemble Machine Learning methods are developed to provide improved agricultural trade predictions, outlier events' implications, and quantitative pointers to policy makers.",
+    "metadata": {
+      "title": "Public Policymaking for International Agricultural Trade using Association Rules and Ensemble Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 13,
+    "content": "We investigate the use of Minimax distances to extract in a nonparametric way the features that capture the unknown underlying patterns and structures in the data. We develop a general-purpose and computationally efficient framework to employ Minimax distances with many machine learning methods that perform on numerical data. We study both computing the pairwise Minimax distances for all pairs of objects and as well as computing the Minimax distances of all the objects to/from a fixed (test) object. We first efficiently compute the pairwise Minimax distances between the objects, using the equivalence of Minimax distances over a graph and over a minimum spanning tree constructed on that. Then, we perform an embedding of the pairwise Minimax distances into a new vector space, such that their squared Euclidean distances in the new space equal to the pairwise Minimax distances in the original space. We also study the case of having multiple pairwise Minimax matrices, instead of a single one. Thereby, we propose an embedding via first summing up the centered matrices and then performing an eigenvalue decomposition to obtain the relevant features. In the following, we study computing Minimax distances from a fixed (test) object which can be used for instance in K-nearest neighbor search. Similar to the case of all-pair pairwise Minimax distances, we develop an efficient and general-purpose algorithm that is applicable with any arbitrary base distance measure. Moreover, we investigate in detail the edges selected by the Minimax distances and thereby explore the ability of Minimax distances in detecting outlier objects. Finally, for each setting, we perform several experiments to demonstrate the effectiveness of our framework.",
+    "metadata": {
+      "title": "Unsupervised Representation Learning with Minimax Distance Measures",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 14,
+    "content": "Automatic machine learning is an important problem in the forefront of machine learning. The strongest AutoML systems are based on neural networks, evolutionary algorithms, and Bayesian optimization. Recently AlphaD3M reached state-of-the-art results with an order of magnitude speedup using reinforcement learning with self-play. In this work we extend AlphaD3M by using a pipeline grammar and a pre-trained model which generalizes from many different datasets and similar tasks. Our results demonstrate improved performance compared with our earlier work and existing methods on AutoML benchmark datasets for classification and regression tasks. In the spirit of reproducible research we make our data, models, and code publicly available.",
+    "metadata": {
+      "title": "Automatic Machine Learning by Pipeline Synthesis using Model-Based Reinforcement Learning and a Grammar",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 15,
+    "content": "From medical charts to national census, healthcare has traditionally operated under a paper-based paradigm. However, the past decade has marked a long and arduous transformation bringing healthcare into the digital age. Ranging from electronic health records, to digitized imaging and laboratory reports, to public health datasets, today, healthcare now generates an incredible amount of digital information. Such a wealth of data presents an exciting opportunity for integrated machine learning solutions to address problems across multiple facets of healthcare practice and administration. Unfortunately, the ability to derive accurate and informative insights requires more than the ability to execute machine learning models. Rather, a deeper understanding of the data on which the models are run is imperative for their success. While a significant effort has been undertaken to develop models able to process the volume of data obtained during the analysis of millions of digitalized patient records, it is important to remember that volume represents only one aspect of the data. In fact, drawing on data from an increasingly diverse set of sources, healthcare data presents an incredibly complex set of attributes that must be accounted for throughout the machine learning pipeline. This chapter focuses on highlighting such challenges, and is broken down into three distinct components, each representing a phase of the pipeline. We begin with attributes of the data accounted for during preprocessing, then move to considerations during model building, and end with challenges to the interpretation of model output. For each component, we present a discussion around data as it relates to the healthcare domain and offer insight into the challenges each may impose on the efficiency of machine learning techniques.",
+    "metadata": {
+      "title": "Beyond Volume: The Impact of Complex Healthcare Data on the Machine Learning Pipeline",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 16,
+    "content": "The topic of comprehensibility of machine-learned theories has recently drawn increasing attention. Inductive Logic Programming (ILP) uses logic programming to derive logic theories from small data based on abduction and induction techniques. Learned theories are represented in the form of rules as declarative descriptions of obtained knowledge. In earlier work, the authors provided the first evidence of a measurable increase in human comprehension based on machine-learned logic rules for simple classification tasks. In a later study, it was found that the presentation of machine-learned explanations to humans can produce both beneficial and harmful effects in the context of game learning. We continue our investigation of comprehensibility by examining the effects of the ordering of concept presentations on human comprehension. In this work, we examine the explanatory effects of curriculum order and the presence of machine-learned explanations for sequential problem-solving. We show that 1) there exist tasks A and B such that learning A before B has a better human comprehension with respect to learning B before A and 2) there exist tasks A and B such that the presence of explanations when learning A contributes to improved human comprehension when subsequently learning B. We propose a framework for the effects of sequential teaching on comprehension based on an existing definition of comprehensibility and provide evidence for support from data collected in human trials. Empirical results show that sequential teaching of concepts with increasing complexity a) has a beneficial effect on human comprehension and b) leads to human re-discovery of divide-and-conquer problem-solving strategies, and c) studying machine-learned explanations allows adaptations of human problem-solving strategy with better performance.",
+    "metadata": {
+      "title": "Explanatory machine learning for sequential human teaching",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 17,
+    "content": "Machine learning algorithms designed to characterize, monitor, and intervene on human health (ML4H) are expected to perform safely and reliably when operating at scale, potentially outside strict human supervision. This requirement warrants a stricter attention to issues of reproducibility than other fields of machine learning.\n  In this work, we conduct a systematic evaluation of over 100 recently published ML4H research papers along several dimensions related to reproducibility. We find that the field of ML4H compares poorly to more established machine learning fields, particularly concerning data and code accessibility. Finally, drawing from success in other fields of science, we propose recommendations to data providers, academic publishers, and the ML4H research community in order to promote reproducible research moving forward.",
+    "metadata": {
+      "title": "Reproducibility in Machine Learning for Health",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 18,
+    "content": "The ML-Schema, proposed by the W3C Machine Learning Schema Community Group, is a top-level ontology that provides a set of classes, properties, and restrictions for representing and interchanging information on machine learning algorithms, datasets, and experiments. It can be easily extended and specialized and it is also mapped to other more domain-specific ontologies developed in the area of machine learning and data mining. In this paper we overview existing state-of-the-art machine learning interchange formats and present the first release of ML-Schema, a canonical format resulted of more than seven years of experience among different research institutions. We argue that exposing semantics of machine learning algorithms, models, and experiments through a canonical format may pave the way to better interpretability and to realistically achieve the full interoperability of experiments regardless of platform or adopted workflow solution.",
+    "metadata": {
+      "title": "ML-Schema: Exposing the Semantics of Machine Learning with Schemas and Ontologies",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 19,
+    "content": "Black box machine learning models are currently being used for high stakes decision-making throughout society, causing problems throughout healthcare, criminal justice, and in other domains. People have hoped that creating methods for explaining these black box models will alleviate some of these problems, but trying to \\textit{explain} black box models, rather than creating models that are \\textit{interpretable} in the first place, is likely to perpetuate bad practices and can potentially cause catastrophic harm to society. There is a way forward -- it is to design models that are inherently interpretable. This manuscript clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare, and computer vision.",
+    "metadata": {
+      "title": "Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 20,
+    "content": "The potential benefits of applying machine learning methods to -omics data are becoming increasingly apparent, especially in clinical settings. However, the unique characteristics of these data are not always well suited to machine learning techniques. These data are often generated across different technologies in different labs, and frequently with high dimensionality. In this paper we present a framework for combining -omics data sets, and for handling high dimensional data, making -omics research more accessible to machine learning applications. We demonstrate the success of this framework through integration and analysis of multi-analyte data for a set of 3,533 breast cancers. We then use this data-set to predict breast cancer patient survival for individuals at risk of an impending event, with higher accuracy and lower variance than methods trained on individual data-sets. We hope that our pipelines for data-set generation and transformation will open up -omics data to machine learning researchers. We have made these freely available for noncommercial use at www.ccg.ai.",
+    "metadata": {
+      "title": "A Framework for Implementing Machine Learning on Omics Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 21,
+    "content": "Uncertainty in machine learning is not generally taught as general knowledge in Machine Learning course curricula. In this paper we propose a short curriculum for a course about uncertainty in machine learning, and complement the course with a selection of use cases, aimed to trigger discussion and let students play with the concepts of uncertainty in a programming setting. Our use cases cover the concept of output uncertainty, Bayesian neural networks and weight distributions, sources of uncertainty, and out of distribution detection. We expect that this curriculum and set of use cases motivates the community to adopt these important concepts into courses for safety in AI.",
+    "metadata": {
+      "title": "Teaching Uncertainty Quantification in Machine Learning through Use Cases",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 22,
+    "content": "In the quest to align deep learning with the sciences to address calls for rigor, safety, and interpretability in machine learning systems, this contribution identifies key missing pieces: the stages of hypothesis formulation and testing, as well as statistical and systematic uncertainty estimation -- core tenets of the scientific method. This position paper discusses the ways in which contemporary science is conducted in other domains and identifies potentially useful practices. We present a case study from physics and describe how this field has promoted rigor through specific methodological practices, and provide recommendations on how machine learning researchers can adopt these practices into the research ecosystem. We argue that both domain-driven experiments and application-agnostic questions of the inner workings of fundamental building blocks of machine learning models ought to be examined with the tools of the scientific method, to ensure we not only understand effect, but also begin to understand cause, which is the raison d'\u00eatre of science.",
+    "metadata": {
+      "title": "The Scientific Method in the Science of Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 23,
+    "content": "This study presents a multimodal machine learning model to predict ICD-10 diagnostic codes. We developed separate machine learning models that can handle data from different modalities, including unstructured text, semi-structured text and structured tabular data. We further employed an ensemble method to integrate all modality-specific models to generate ICD-10 codes. Key evidence was also extracted to make our prediction more convincing and explainable. We used the Medical Information Mart for Intensive Care III (MIMIC -III) dataset to validate our approach. For ICD code prediction, our best-performing model (micro-F1 = 0.7633, micro-AUC = 0.9541) significantly outperforms other baseline models including TF-IDF (micro-F1 = 0.6721, micro-AUC = 0.7879) and Text-CNN model (micro-F1 = 0.6569, micro-AUC = 0.9235). For interpretability, our approach achieves a Jaccard Similarity Coefficient (JSC) of 0.1806 on text data and 0.3105 on tabular data, where well-trained physicians achieve 0.2780 and 0.5002 respectively.",
+    "metadata": {
+      "title": "Multimodal Machine Learning for Automated ICD Coding",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 24,
+    "content": "This volume represents the accepted submissions from the Machine Learning for Health (ML4H) workshop at the conference on Neural Information Processing Systems (NeurIPS) 2018, held on December 8, 2018 in Montreal, Canada.",
+    "metadata": {
+      "title": "Machine Learning for Health (ML4H) Workshop at NeurIPS 2018",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 25,
+    "content": "Handling previously unseen tasks after given only a few training examples continues to be a tough challenge in machine learning. We propose TapNets, neural networks augmented with task-adaptive projection for improved few-shot learning. Here, employing a meta-learning strategy with episode-based training, a network and a set of per-class reference vectors are learned across widely varying tasks. At the same time, for every episode, features in the embedding space are linearly projected into a new space as a form of quick task-specific conditioning. The training loss is obtained based on a distance metric between the query and the reference vectors in the projection space. Excellent generalization results in this way. When tested on the Omniglot, miniImageNet and tieredImageNet datasets, we obtain state of the art classification accuracies under various few-shot scenarios.",
+    "metadata": {
+      "title": "TapNet: Neural Network Augmented with Task-Adaptive Projection for Few-Shot Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 26,
+    "content": "The predominant paradigm for using machine learning models on a device is to train a model in the cloud and perform inference using the trained model on the device. However, with increasing number of smart devices and improved hardware, there is interest in performing model training on the device. Given this surge in interest, a comprehensive survey of the field from a device-agnostic perspective sets the stage for both understanding the state-of-the-art and for identifying open challenges and future avenues of research. However, on-device learning is an expansive field with connections to a large number of related topics in AI and machine learning (including online learning, model adaptation, one/few-shot learning, etc.). Hence, covering such a large number of topics in a single survey is impractical. This survey finds a middle ground by reformulating the problem of on-device learning as resource constrained learning where the resources are compute and memory. This reformulation allows tools, techniques, and algorithms from a wide variety of research areas to be compared equitably. In addition to summarizing the state-of-the-art, the survey also identifies a number of challenges and next steps for both the algorithmic and theoretical aspects of on-device learning.",
+    "metadata": {
+      "title": "On-Device Machine Learning: An Algorithms and Learning Theory Perspective",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 27,
+    "content": "As machine learning (ML) models, trained on real-world datasets, become common practice, it is critical to measure and quantify their potential biases. In this paper, we focus on renal failure and compare a commonly used traditional risk score, Tangri, with a more powerful machine learning model, which has access to a larger variable set and trained on 1.6 million patients' EHR data. We will compare and discuss the generalization and applicability of these two models, in an attempt to quantify biases of status quo clinical practice, compared to ML-driven models.",
+    "metadata": {
+      "title": "Towards Quantification of Bias in Machine Learning for Healthcare: A Case Study of Renal Failure Prediction",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 28,
+    "content": "Traditional differential privacy is independent of the data distribution. However, this is not well-matched with the modern machine learning context, where models are trained on specific data. As a result, achieving meaningful privacy guarantees in ML often excessively reduces accuracy. We propose Bayesian differential privacy (BDP), which takes into account the data distribution to provide more practical privacy guarantees. We also derive a general privacy accounting method under BDP, building upon the well-known moments accountant. Our experiments demonstrate that in-distribution samples in classic machine learning datasets, such as MNIST and CIFAR-10, enjoy significantly stronger privacy guarantees than postulated by DP, while models maintain high classification accuracy.",
+    "metadata": {
+      "title": "Bayesian Differential Privacy for Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 29,
+    "content": "Recently, prediction markets have shown considerable promise for developing flexible mechanisms for machine learning. In this paper, agents with isoelastic utilities are considered. It is shown that the costs associated with homogeneous markets of agents with isoelastic utilities produce equilibrium prices corresponding to alpha-mixtures, with a particular form of mixing component relating to each agent's wealth. We also demonstrate that wealth accumulation for logarithmic and other isoelastic agents (through payoffs on prediction of training targets) can implement both Bayesian model updates and mixture weight updates by imposing different market payoff structures. An iterative algorithm is given for market equilibrium computation. We demonstrate that inhomogeneous markets of agents with isoelastic utilities outperform state of the art aggregate classifiers such as random forests, as well as single classifiers (neural networks, decision trees) on a number of machine learning benchmarks, and show that isoelastic combination methods are generally better than their logarithmic counterparts.",
+    "metadata": {
+      "title": "Isoelastic Agents and Wealth Updates in Machine Learning Markets",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 30,
+    "content": "Smarter applications are making better use of the insights gleaned from data, having an impact on every industry and research discipline. At the core of this revolution lies the tools and the methods that are driving it, from processing the massive piles of data generated each day to learning from and taking useful action. Deep neural networks, along with advancements in classical ML and scalable general-purpose GPU computing, have become critical components of artificial intelligence, enabling many of these astounding breakthroughs and lowering the barrier to adoption. Python continues to be the most preferred language for scientific computing, data science, and machine learning, boosting both performance and productivity by enabling the use of low-level libraries and clean high-level APIs. This survey offers insight into the field of machine learning with Python, taking a tour through important topics to identify some of the core hardware and software paradigms that have enabled it. We cover widely-used libraries and concepts, collected together for holistic comparison, with the goal of educating the reader and driving the field of Python machine learning forward.",
+    "metadata": {
+      "title": "Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 31,
+    "content": "When machine learning systems fail because of adversarial manipulation, how should society expect the law to respond? Through scenarios grounded in adversarial ML literature, we explore how some aspects of computer crime, copyright, and tort law interface with perturbation, poisoning, model stealing and model inversion attacks to show how some attacks are more likely to result in liability than others. We end with a call for action to ML researchers to invest in transparent benchmarks of attacks and defenses; architect ML systems with forensics in mind and finally, think more about adversarial machine learning in the context of civil liberties. The paper is targeted towards ML researchers who have no legal background.",
+    "metadata": {
+      "title": "Law and Adversarial Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 32,
+    "content": "Significant advancements have been made in recent years to optimize patient recruitment for clinical trials, however, improved methods for patient recruitment prediction are needed to support trial site selection and to estimate appropriate enrollment timelines in the trial design stage. In this paper, using data from thousands of historical clinical trials, we explore machine learning methods to predict the number of patients enrolled per month at a clinical trial site over the course of a trial's enrollment duration. We show that these methods can reduce the error that is observed with current industry standards and propose opportunities for further improvement.",
+    "metadata": {
+      "title": "A Machine Learning Approach for Recruitment Prediction in Clinical Trial Design",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 33,
+    "content": "We present SmartChoices, an approach to making machine learning (ML) a first class citizen in programming languages which we see as one way to lower the entrance cost to applying ML to problems in new domains. There is a growing divide in approaches to building systems: on the one hand, programming leverages human experts to define a system while on the other hand behavior is learned from data in machine learning. We propose to hybridize these two by providing a 3-call API which we expose through an object called SmartChoice. We describe the SmartChoices-interface, how it can be used in programming with minimal code changes, and demonstrate that it is an easy to use but still powerful tool by demonstrating improvements over not using ML at all on three algorithmic problems: binary search, QuickSort, and caches. In these three examples, we replace the commonly used heuristics with an ML model entirely encapsulated within a SmartChoice and thus requiring minimal code changes. As opposed to previous work applying ML to algorithmic problems, our proposed approach does not require to drop existing implementations but seamlessly integrates into the standard software development workflow and gives full control to the software developer over how ML methods are applied. Our implementation relies on standard Reinforcement Learning (RL) methods. To learn faster, we use the heuristic function, which they are replacing, as an initial function. We show how this initial function can be used to speed up and stabilize learning while providing a safety net that prevents performance to become substantially worse -- allowing for a safe deployment in critical applications in real life.",
+    "metadata": {
+      "title": "SmartChoices: Hybridizing Programming and Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 34,
+    "content": "Machine learning bias in mental health is becoming an increasingly pertinent challenge. Despite promising efforts indicating that multitask approaches often work better than unitask approaches, there is minimal work investigating the impact of multitask learning on performance and fairness in depression detection nor leveraged it to achieve fairer prediction outcomes. In this work, we undertake a systematic investigation of using a multitask approach to improve performance and fairness for depression detection. We propose a novel gender-based task-reweighting method using uncertainty grounded in how the PHQ-8 questionnaire is structured. Our results indicate that, although a multitask approach improves performance and fairness compared to a unitask approach, the results are not always consistent and we see evidence of negative transfer and a reduction in the Pareto frontier, which is concerning given the high-stake healthcare setting. Our proposed approach of gender-based reweighting with uncertainty improves performance and fairness and alleviates both challenges to a certain extent. Our findings on each PHQ-8 subitem task difficulty are also in agreement with the largest study conducted on the PHQ-8 subitem discrimination capacity, thus providing the very first tangible evidence linking ML findings with large-scale empirical population studies conducted on the PHQ-8.",
+    "metadata": {
+      "title": "U-Fair: Uncertainty-based Multimodal Multitask Learning for Fairer Depression Detection",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 35,
+    "content": "Model-agnostic meta-learning (MAML) is a meta-learning technique to train a model on a multitude of learning tasks in a way that primes the model for few-shot learning of new tasks. The MAML algorithm performs well on few-shot learning problems in classification, regression, and fine-tuning of policy gradients in reinforcement learning, but comes with the need for costly hyperparameter tuning for training stability. We address this shortcoming by introducing an extension to MAML, called Alpha MAML, to incorporate an online hyperparameter adaptation scheme that eliminates the need to tune meta-learning and learning rates. Our results with the Omniglot database demonstrate a substantial reduction in the need to tune MAML training hyperparameters and improvement to training stability with less sensitivity to hyperparameter choice.",
+    "metadata": {
+      "title": "Alpha MAML: Adaptive Model-Agnostic Meta-Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 36,
+    "content": "We introduce a new second-order inertial optimization method for machine learning called INNA. It exploits the geometry of the loss function while only requiring stochastic approximations of the function values and the generalized gradients. This makes INNA fully implementable and adapted to large-scale optimization problems such as the training of deep neural networks. The algorithm combines both gradient-descent and Newton-like behaviors as well as inertia. We prove the convergence of INNA for most deep learning problems. To do so, we provide a well-suited framework to analyze deep learning loss functions involving tame optimization in which we study a continuous dynamical system together with its discrete stochastic approximations. We prove sublinear convergence for the continuous-time differential inclusion which underlies our algorithm. Additionally, we also show how standard optimization mini-batch methods applied to non-smooth non-convex problems can yield a certain type of spurious stationary points never discussed before. We address this issue by providing a theoretical framework around the new idea of $D$-criticality; we then give a simple asymptotic analysis of INNA. Our algorithm allows for using an aggressive learning rate of $o(1/\\log k)$. From an empirical viewpoint, we show that INNA returns competitive results with respect to state of the art (stochastic gradient descent, ADAGRAD, ADAM) on popular deep learning benchmark problems.",
+    "metadata": {
+      "title": "An Inertial Newton Algorithm for Deep Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 37,
+    "content": "Machine learning-based lithography hotspot detection has been deeply studied recently, from varies feature extraction techniques to efficient learning models. It has been observed that such machine learning-based frameworks are providing satisfactory metal layer hotspot prediction results on known public metal layer benchmarks. In this work, we seek to evaluate how these machine learning-based hotspot detectors generalize to complicated patterns. We first introduce a automatic layout generation tool that can synthesize varies layout patterns given a set of design rules. The tool currently supports both metal layer and via layer generation. As a case study, we conduct hotspot detection on the generated via layer layouts with representative machine learning-based hotspot detectors, which shows that continuous study on model robustness and generality is necessary to prototype and integrate the learning engines in DFM flows. The source code of the layout generation tool will be available at https://github. com/phdyang007/layout-generation.",
+    "metadata": {
+      "title": "Automatic Layout Generation with Applications in Machine Learning Engine Evaluation",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 38,
+    "content": "Machine learning is an established and frequently used technique in industry and academia but a standard process model to improve success and efficiency of machine learning applications is still missing. Project organizations and machine learning practitioners have a need for guidance throughout the life cycle of a machine learning application to meet business expectations. We therefore propose a process model for the development of machine learning applications, that covers six phases from defining the scope to maintaining the deployed machine learning application. The first phase combines business and data understanding as data availability oftentimes affects the feasibility of the project. The sixth phase covers state-of-the-art approaches for monitoring and maintenance of a machine learning applications, as the risk of model degradation in a changing environment is eminent. With each task of the process, we propose quality assurance methodology that is suitable to adress challenges in machine learning development that we identify in form of risks. The methodology is drawn from practical experience and scientific literature and has proven to be general and stable. The process model expands on CRISP-DM, a data mining process model that enjoys strong industry support but lacks to address machine learning specific tasks. Our work proposes an industry and application neutral process model tailored for machine learning applications with focus on technical tasks for quality assurance.",
+    "metadata": {
+      "title": "Towards CRISP-ML(Q): A Machine Learning Process Model with Quality Assurance Methodology",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 39,
+    "content": "Despite the high interest for Machine Learning (ML) in academia and industry, many issues related to the application of ML to real-life problems are yet to be addressed. Here we put forward one limitation which arises from a lack of adaptation of ML models and datasets to specific applications. We formalise a new notion of unfairness as exclusion of opinions. We propose ways to quantify this unfairness, and aid understanding its causes through visualisation. These insights into the functioning of ML-based systems hint at methods to mitigate unfairness.",
+    "metadata": {
+      "title": "Unfairness towards subjective opinions in Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 40,
+    "content": "Network data are ubiquitous in modern machine learning, with tasks of interest including node classification, node clustering and link prediction. A frequent approach begins by learning an Euclidean embedding of the network, to which algorithms developed for vector-valued data are applied. For large networks, embeddings are learned using stochastic gradient methods where the sub-sampling scheme can be freely chosen. Despite the strong empirical performance of such methods, they are not well understood theoretically. Our work encapsulates representation methods using a subsampling approach, such as node2vec, into a single unifying framework. We prove, under the assumption that the graph is exchangeable, that the distribution of the learned embedding vectors asymptotically decouples. Moreover, we characterize the asymptotic distribution and provided rates of convergence, in terms of the latent parameters, which includes the choice of loss function and the embedding dimension. This provides a theoretical foundation to understand what the embedding vectors represent and how well these methods perform on downstream tasks. Notably, we observe that typically used loss functions may lead to shortcomings, such as a lack of Fisher consistency.",
+    "metadata": {
+      "title": "Asymptotics of Network Embeddings Learned via Subsampling",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 41,
+    "content": "We investigate the potential of using gravitational wave (GW) signals from rotating core-collapse supernovae to probe the equation of state (EOS) of nuclear matter. By generating GW signals from simulations with various EOSs, we train machine learning models to classify them and evaluate their performance. Our study builds on previous work by examining how different machine learning models, parameters, and data preprocessing techniques impact classification accuracy. We test convolutional and recurrent neural networks, as well as six classical algorithms: random forest, support vector machines, na\u00efve Bayes, logistic regression, $k$-nearest neighbors, and eXtreme gradient boosting. All models, except na\u00efve Bayes, achieve over 90 per cent accuracy on our dataset. Additionally, we assess the impact of approximating the GW signal using the general relativistic effective potential (GREP) on EOS classification. We find that models trained on GREP data exhibit low classification accuracy. However, normalizing time by the peak signal frequency, which partially compensates for the absence of the time dilation effect in GREP, leads to a notable improvement in accuracy. Despite this, the accuracy does not exceed 70 per cent, suggesting that GREP lacks the precision necessary for EOS classification. Finally, our study has several limitations, including the omission of detector noise and the focus on a single progenitor mass model, which will be addressed in future works.",
+    "metadata": {
+      "title": "Evaluating Machine Learning Models for Supernova Gravitational Wave Signal Classification",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 42,
+    "content": "We have entered a new era of machine learning (ML), where the most accurate algorithm with superior predictive power may not even be deployable, unless it is admissible under the regulatory constraints. This has led to great interest in developing fair, transparent and trustworthy ML methods. The purpose of this article is to introduce a new information-theoretic learning framework (admissible machine learning) and algorithmic risk-management tools (InfoGram, L-features, ALFA-testing) that can guide an analyst to redesign off-the-shelf ML methods to be regulatory compliant, while maintaining good prediction accuracy. We have illustrated our approach using several real-data examples from financial sectors, biomedical research, marketing campaigns, and the criminal justice system.",
+    "metadata": {
+      "title": "InfoGram and Admissible Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 43,
+    "content": "Generative Adversarial Networks have shown remarkable success in learning a distribution that faithfully recovers a reference distribution in its entirety. However, in some cases, we may want to only learn some aspects (e.g., cluster or manifold structure), while modifying others (e.g., style, orientation or dimension). In this work, we propose an approach to learn generative models across such incomparable spaces, and demonstrate how to steer the learned distribution towards target properties. A key component of our model is the Gromov-Wasserstein distance, a notion of discrepancy that compares distributions relationally rather than absolutely. While this framework subsumes current generative models in identically reproducing distributions, its inherent flexibility allows application to tasks in manifold learning, relational learning and cross-domain learning.",
+    "metadata": {
+      "title": "Learning Generative Models across Incomparable Spaces",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 44,
+    "content": "Transfer learning is crucial in training deep neural networks on new target tasks. Current transfer learning methods always assume at least one of (i) source and target task label spaces overlap, (ii) source datasets are available, and (iii) target network architectures are consistent with source ones. However, holding these assumptions is difficult in practical settings because the target task rarely has the same labels as the source task, the source dataset access is restricted due to storage costs and privacy, and the target architecture is often specialized to each task. To transfer source knowledge without these assumptions, we propose a transfer learning method that uses deep generative models and is composed of the following two stages: pseudo pre-training (PP) and pseudo semi-supervised learning (P-SSL). PP trains a target architecture with an artificial dataset synthesized by using conditional source generative models. P-SSL applies SSL algorithms to labeled target data and unlabeled pseudo samples, which are generated by cascading the source classifier and generative models to condition them with target samples. Our experimental results indicate that our method can outperform the baselines of scratch training and knowledge distillation.",
+    "metadata": {
+      "title": "Transfer Learning with Pre-trained Conditional Generative Models",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 45,
+    "content": "Machine learning algorithms have been used widely in various applications and areas. To fit a machine learning model into different problems, its hyper-parameters must be tuned. Selecting the best hyper-parameter configuration for machine learning models has a direct impact on the model's performance. It often requires deep knowledge of machine learning algorithms and appropriate hyper-parameter optimization techniques. Although several automatic optimization techniques exist, they have different strengths and drawbacks when applied to different types of problems. In this paper, optimizing the hyper-parameters of common machine learning models is studied. We introduce several state-of-the-art optimization techniques and discuss how to apply them to machine learning algorithms. Many available libraries and frameworks developed for hyper-parameter optimization problems are provided, and some open challenges of hyper-parameter optimization research are also discussed in this paper. Moreover, experiments are conducted on benchmark datasets to compare the performance of different optimization methods and provide practical examples of hyper-parameter optimization. This survey paper will help industrial users, data analysts, and researchers to better develop machine learning models by identifying the proper hyper-parameter configurations effectively.",
+    "metadata": {
+      "title": "On Hyperparameter Optimization of Machine Learning Algorithms: Theory and Practice",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 46,
+    "content": "Neural Network is a powerful Machine Learning tool that shows outstanding performance in Computer Vision, Natural Language Processing, and Artificial Intelligence. In particular, recently proposed ResNet architecture and its modifications produce state-of-the-art results in image classification problems. ResNet and most of the previously proposed architectures have a fixed structure and apply the same transformation to all input images. In this work, we develop a ResNet-based model that dynamically selects Computational Units (CU) for each input object from a learned set of transformations. Dynamic selection allows the network to learn a sequence of useful transformations and apply only required units to predict the image label. We compare our model to ResNet-38 architecture and achieve better results than the original ResNet on CIFAR-10.1 test set. While examining the produced paths, we discovered that the network learned different routes for images from different classes and similar routes for similar images.",
+    "metadata": {
+      "title": "ReSet: Learning Recurrent Dynamic Routing in ResNet-like Neural Networks",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 47,
+    "content": "Understanding why machine learning models behave the way they do empowers both system designers and end-users in many ways: in model selection, feature engineering, in order to trust and act upon the predictions, and in more intuitive user interfaces. Thus, interpretability has become a vital concern in machine learning, and work in the area of interpretable models has found renewed interest. In some applications, such models are as accurate as non-interpretable ones, and thus are preferred for their transparency. Even when they are not accurate, they may still be preferred when interpretability is of paramount importance. However, restricting machine learning to interpretable models is often a severe limitation. In this paper we argue for explaining machine learning predictions using model-agnostic approaches. By treating the machine learning models as black-box functions, these approaches provide crucial flexibility in the choice of models, explanations, and representations, improving debugging, comparison, and interfaces for a variety of users and models. We also outline the main challenges for such methods, and review a recently-introduced model-agnostic explanation approach (LIME) that addresses these challenges.",
+    "metadata": {
+      "title": "Model-Agnostic Interpretability of Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 48,
+    "content": "Machine learning research has advanced in multiple aspects, including model structures and learning methods. The effort to automate such research, known as AutoML, has also made significant progress. However, this progress has largely focused on the architecture of neural networks, where it has relied on sophisticated expert-designed layers as building blocks---or similarly restrictive search spaces. Our goal is to show that AutoML can go further: it is possible today to automatically discover complete machine learning algorithms just using basic mathematical operations as building blocks. We demonstrate this by introducing a novel framework that significantly reduces human bias through a generic search space. Despite the vastness of this space, evolutionary search can still discover two-layer neural networks trained by backpropagation. These simple neural networks can then be surpassed by evolving directly on tasks of interest, e.g. CIFAR-10 variants, where modern techniques emerge in the top algorithms, such as bilinear interactions, normalized gradients, and weight averaging. Moreover, evolution adapts algorithms to different task types: e.g., dropout-like techniques appear when little data is available. We believe these preliminary successes in discovering machine learning algorithms from scratch indicate a promising new direction for the field.",
+    "metadata": {
+      "title": "AutoML-Zero: Evolving Machine Learning Algorithms From Scratch",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 49,
+    "content": "Machine learning (ML) methods are having a huge impact across all of the sciences. However, ML has a strong ontology - in which only the data exist - and a strong epistemology - in which a model is considered good if it performs well on held-out training data. These philosophies are in strong conflict with both standard practices and key philosophies in the natural sciences. Here we identify some locations for ML in the natural sciences at which the ontology and epistemology are valuable. For example, when an expressive machine learning model is used in a causal inference to represent the effects of confounders, such as foregrounds, backgrounds, or instrument calibration parameters, the model capacity and loose philosophy of ML can make the results more trustworthy. We also show that there are contexts in which the introduction of ML introduces strong, unwanted statistical biases. For one, when ML models are used to emulate physical (or first-principles) simulations, they amplify confirmation biases. For another, when expressive regressions are used to label datasets, those labels cannot be used in downstream joint or ensemble analyses without taking on uncontrolled biases. The question in the title is being asked of all of the natural sciences; that is, we are calling on the scientific communities to take a step back and consider the role and value of ML in their fields; the (partial) answers we give here come from the particular perspective of physics.",
+    "metadata": {
+      "title": "Is machine learning good or bad for the natural sciences?",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 50,
+    "content": "In recent years, the concept of automated machine learning has become very popular. Automated Machine Learning (AutoML) mainly refers to the automated methods for model selection and hyper-parameter optimization of various algorithms such as random forests, gradient boosting, neural networks, etc. In this paper, we introduce a new package i.e. DriveML for automated machine learning. DriveML helps in implementing some of the pillars of an automated machine learning pipeline such as automated data preparation, feature engineering, model building and model explanation by running the function instead of writing lengthy R codes. The DriveML package is available in CRAN. We compare the DriveML package with other relevant packages in CRAN/Github and find that DriveML performs the best across different parameters. We also provide an illustration by applying the DriveML package with default configuration on a real world dataset. Overall, the main benefits of DriveML are in development time savings, reduce developer's errors, optimal tuning of machine learning models and reproducibility.",
+    "metadata": {
+      "title": "DriveML: An R Package for Driverless Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 51,
+    "content": "No free lunch theorems for supervised learning state that no learner can solve all problems or that all learners achieve exactly the same accuracy on average over a uniform distribution on learning problems. Accordingly, these theorems are often referenced in support of the notion that individual problems require specially tailored inductive biases. While virtually all uniformly sampled datasets have high complexity, real-world problems disproportionately generate low-complexity data, and we argue that neural network models share this same preference, formalized using Kolmogorov complexity. Notably, we show that architectures designed for a particular domain, such as computer vision, can compress datasets on a variety of seemingly unrelated domains. Our experiments show that pre-trained and even randomly initialized language models prefer to generate low-complexity sequences. Whereas no free lunch theorems seemingly indicate that individual problems require specialized learners, we explain how tasks that often require human intervention such as picking an appropriately sized model when labeled data is scarce or plentiful can be automated into a single learning algorithm. These observations justify the trend in deep learning of unifying seemingly disparate problems with an increasingly small set of machine learning models.",
+    "metadata": {
+      "title": "The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 52,
+    "content": "Nowadays stochastic approximation methods are one of the major research direction to deal with the large-scale machine learning problems. From stochastic first order methods, now the focus is shifting to stochastic second order methods due to their faster convergence and availability of computing resources. In this paper, we have proposed a novel Stochastic Trust RegiOn Inexact Newton method, called as STRON, to solve large-scale learning problems which uses conjugate gradient (CG) to inexactly solve trust region subproblem. The method uses progressive subsampling in the calculation of gradient and Hessian values to take the advantage of both, stochastic and full-batch regimes. We have extended STRON using existing variance reduction techniques to deal with the noisy gradients and using preconditioned conjugate gradient (PCG) as subproblem solver, and empirically proved that they do not work as expected, for the large-scale learning problems. Finally, our empirical results prove efficacy of the proposed method against existing methods with bench marked datasets.",
+    "metadata": {
+      "title": "Stochastic Trust Region Inexact Newton Method for Large-scale Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 53,
+    "content": "Normalization is an important but understudied challenge in privacy-related application domains such as federated learning (FL), differential privacy (DP), and differentially private federated learning (DP-FL). While the unsuitability of batch normalization for these domains has already been shown, the impact of other normalization methods on the performance of federated or differentially private models is not well-known. To address this, we draw a performance comparison among layer normalization (LayerNorm), group normalization (GroupNorm), and the recently proposed kernel normalization (KernelNorm) in FL, DP, and DP-FL settings. Our results indicate LayerNorm and GroupNorm provide no performance gain compared to the baseline (i.e. no normalization) for shallow models in FL and DP. They, on the other hand, considerably enhance the performance of shallow models in DP-FL and deeper models in FL and DP. KernelNorm, moreover, significantly outperforms its competitors in terms of accuracy and convergence rate (or communication efficiency) for both shallow and deeper models in all considered learning environments. Given these key observations, we propose a kernel normalized ResNet architecture called KNResNet-13 for differentially private learning. Using the proposed architecture, we provide new state-of-the-art accuracy values on the CIFAR-10 and Imagenette datasets, when trained from scratch.",
+    "metadata": {
+      "title": "Kernel Normalized Convolutional Networks for Privacy-Preserving Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 54,
+    "content": "We present a federated learning framework that is designed to robustly deliver good predictive performance across individual clients with heterogeneous data. The proposed approach hinges upon a superquantile-based learning objective that captures the tail statistics of the error distribution over heterogeneous clients. We present a stochastic training algorithm that interleaves differentially private client filtering with federated averaging steps. We prove finite time convergence guarantees for the algorithm: $O(1/\\sqrt{T})$ in the nonconvex case in $T$ communication rounds and $O(\\exp(-T/\u03ba^{3/2}) + \u03ba/T)$ in the strongly convex case with local condition number $\u03ba$. Experimental results on benchmark datasets for federated learning demonstrate that our approach is competitive with classical ones in terms of average error and outperforms them in terms of tail statistics of the error.",
+    "metadata": {
+      "title": "Federated Learning with Superquantile Aggregation for Heterogeneous Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 55,
+    "content": "In this paper, we have discussed initial findings and results of our experiment to predict sexual and reproductive health vulnerabilities of migrants in a data-constrained environment. Notwithstanding the limited research and data about migrants and migration cities, we propose a solution that simultaneously focuses on data gathering from migrants, augmenting awareness of the migrants to reduce mishaps, and setting up a mechanism to present insights to the key stakeholders in migration to act upon. We have designed a webapp for the stakeholders involved in migration: migrants, who would participate in data gathering process and can also use the app for getting to know safety and awareness tips based on analysis of the data received; public health workers, who would have an access to the database of migrants on the app; policy makers, who would have a greater understanding of the ground reality, and of the patterns of migration through machine-learned analysis. Finally, we have experimented with different machine learning models on an artificially curated dataset. We have shown, through experiments, how machine learning can assist in predicting the migrants at risk and can also help in identifying the critical factors that make migration dangerous for migrants. The results for identifying vulnerable migrants through machine learning algorithms are statistically significant at an alpha of 0.05.",
+    "metadata": {
+      "title": "Migration through Machine Learning Lens -- Predicting Sexual and Reproductive Health Vulnerability of Young Migrants",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 56,
+    "content": "Measuring the similarity between data points often requires domain knowledge, which can in parts be compensated by relying on unsupervised methods such as latent-variable models, where similarity/distance is estimated in a more compact latent space. Prevalent is the use of the Euclidean metric, which has the drawback of ignoring information about similarity of data stored in the decoder, as captured by the framework of Riemannian geometry. We propose an extension to the framework of variational auto-encoders allows learning flat latent manifolds, where the Euclidean metric is a proxy for the similarity between data points. This is achieved by defining the latent space as a Riemannian manifold and by regularising the metric tensor to be a scaled identity matrix. Additionally, we replace the compact prior typically used in variational auto-encoders with a recently presented, more expressive hierarchical one---and formulate the learning problem as a constrained optimisation problem. We evaluate our method on a range of data-sets, including a video-tracking benchmark, where the performance of our unsupervised approach nears that of state-of-the-art supervised approaches, while retaining the computational efficiency of straight-line-based approaches.",
+    "metadata": {
+      "title": "Learning Flat Latent Manifolds with VAEs",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 57,
+    "content": "As artificial intelligence is increasingly affecting all parts of society and life, there is growing recognition that human interpretability of machine learning models is important. It is often argued that accuracy or other similar generalization performance metrics must be sacrificed in order to gain interpretability. Such arguments, however, fail to acknowledge that the overall decision-making system is composed of two entities: the learned model and a human who fuses together model outputs with his or her own information. As such, the relevant performance criteria should be for the entire system, not just for the machine learning component. In this work, we characterize the performance of such two-node tandem data fusion systems using the theory of distributed detection. In doing so, we work in the population setting and model interpretable learned models as multi-level quantizers. We prove that under our abstraction, the overall system of a human with an interpretable classifier outperforms one with a black box classifier.",
+    "metadata": {
+      "title": "Why Interpretability in Machine Learning? An Answer Using Distributed Detection and Data Fusion Theory",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 58,
+    "content": "This is an index to the papers that appear in the Proceedings of the 29th International Conference on Machine Learning (ICML-12). The conference was held in Edinburgh, Scotland, June 27th - July 3rd, 2012.",
+    "metadata": {
+      "title": "Proceedings of the 29th International Conference on Machine Learning (ICML-12)",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 59,
+    "content": "In this work, we present LOTUS (Learning to Learn with Optimal Transport for Unsupervised Scenarios), a simple yet effective method to perform model selection for multiple unsupervised machine learning(ML) tasks such as outlier detection and clustering. Our intuition behind this work is that a machine learning pipeline will perform well in a new dataset if it previously worked well on datasets with a similar underlying data distribution. We use Optimal Transport distances to find this similarity between unlabeled tabular datasets and recommend machine learning pipelines with one unified single method on two downstream unsupervised tasks: outlier detection and clustering. We present the effectiveness of our approach with experiments against strong baselines and show that LOTUS is a very promising first step toward model selection for multiple unsupervised ML tasks.",
+    "metadata": {
+      "title": "Automated Machine Learning for Unsupervised Tabular Tasks",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 60,
+    "content": "In this paper, we introduce ChainerRL, an open-source deep reinforcement learning (DRL) library built using Python and the Chainer deep learning framework. ChainerRL implements a comprehensive set of DRL algorithms and techniques drawn from state-of-the-art research in the field. To foster reproducible research, and for instructional purposes, ChainerRL provides scripts that closely replicate the original papers' experimental settings and reproduce published benchmark results for several algorithms. Lastly, ChainerRL offers a visualization tool that enables the qualitative inspection of trained agents. The ChainerRL source code can be found on GitHub: https://github.com/chainer/chainerrl.",
+    "metadata": {
+      "title": "ChainerRL: A Deep Reinforcement Learning Library",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 61,
+    "content": "In this paper we consider the problems of supervised classification and regression in the case where attributes and labels are functions: a data is represented by a set of functions, and the label is also a function. We focus on the use of reproducing kernel Hilbert space theory to learn from such functional data. Basic concepts and properties of kernel-based learning are extended to include the estimation of function-valued functions. In this setting, the representer theorem is restated, a set of rigorously defined infinite-dimensional operator-valued kernels that can be valuably applied when the data are functions is described, and a learning algorithm for nonlinear functional data analysis is introduced. The methodology is illustrated through speech and audio signal processing experiments.",
+    "metadata": {
+      "title": "Operator-valued Kernels for Learning from Functional Response Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 62,
+    "content": "As an important step to fulfill the Paris Agreement and achieve net-zero emissions by 2050, the European Commission adopted the most ambitious package of climate impact measures in April 2021 to improve the flow of capital towards sustainable activities. For these and other international measures to be successful, reliable data is key. The ability to see the carbon footprint of companies around the world will be critical for investors to comply with the measures. However, with only a small portion of companies volunteering to disclose their greenhouse gas (GHG) emissions, it is nearly impossible for investors to align their investment strategies with the measures. By training a machine learning model on disclosed GHG emissions, we are able to estimate the emissions of other companies globally who do not disclose their emissions. In this paper, we show that our model provides accurate estimates of corporate GHG emissions to investors such that they are able to align their investments with the regulatory measures and achieve net-zero goals.",
+    "metadata": {
+      "title": "Estimation of Corporate Greenhouse Gas Emissions via Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 63,
+    "content": "While deep reinforcement learning (RL) has fueled multiple high-profile successes in machine learning, it is held back from more widespread adoption by its often poor data efficiency and the limited generality of the policies it produces. A promising approach for alleviating these limitations is to cast the development of better RL algorithms as a machine learning problem itself in a process called meta-RL. Meta-RL is most commonly studied in a problem setting where, given a distribution of tasks, the goal is to learn a policy that is capable of adapting to any new task from the task distribution with as little data as possible. In this survey, we describe the meta-RL problem setting in detail as well as its major variations. We discuss how, at a high level, meta-RL research can be clustered based on the presence of a task distribution and the learning budget available for each individual task. Using these clusters, we then survey meta-RL algorithms and applications. We conclude by presenting the open problems on the path to making meta-RL part of the standard toolbox for a deep RL practitioner.",
+    "metadata": {
+      "title": "A Tutorial on Meta-Reinforcement Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 64,
+    "content": "Graphs are nowadays ubiquitous in the fields of signal processing and machine learning. As a tool used to express relationships between objects, graphs can be deployed to various ends: I) clustering of vertices, II) semi-supervised classification of vertices, III) supervised classification of graph signals, and IV) denoising of graph signals. However, in many practical cases graphs are not explicitly available and must therefore be inferred from data. Validation is a challenging endeavor that naturally depends on the downstream task for which the graph is learnt. Accordingly, it has often been difficult to compare the efficacy of different algorithms. In this work, we introduce several ease-to-use and publicly released benchmarks specifically designed to reveal the relative merits and limitations of graph inference methods. We also contrast some of the most prominent techniques in the literature.",
+    "metadata": {
+      "title": "Graph topology inference benchmarks for machine learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 65,
+    "content": "Automated machine learning makes it easier for data scientists to develop pipelines by searching over possible choices for hyperparameters, algorithms, and even pipeline topologies. Unfortunately, the syntax for automated machine learning tools is inconsistent with manual machine learning, with each other, and with error checks. Furthermore, few tools support advanced features such as topology search or higher-order operators. This paper introduces Lale, a library of high-level Python interfaces that simplifies and unifies automated machine learning in a consistent way.",
+    "metadata": {
+      "title": "Lale: Consistent Automated Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 66,
+    "content": "Machine learning models for medical image analysis often suffer from poor performance on important subsets of a population that are not identified during training or testing. For example, overall performance of a cancer detection model may be high, but the model still consistently misses a rare but aggressive cancer subtype. We refer to this problem as hidden stratification, and observe that it results from incompletely describing the meaningful variation in a dataset. While hidden stratification can substantially reduce the clinical efficacy of machine learning models, its effects remain difficult to measure. In this work, we assess the utility of several possible techniques for measuring and describing hidden stratification effects, and characterize these effects on multiple medical imaging datasets. We find evidence that hidden stratification can occur in unidentified imaging subsets with low prevalence, low label quality, subtle distinguishing features, or spurious correlates, and that it can result in relative performance differences of over 20% on clinically important subsets. Finally, we explore the clinical implications of our findings, and suggest that evaluation of hidden stratification should be a critical component of any machine learning deployment in medical imaging.",
+    "metadata": {
+      "title": "Hidden Stratification Causes Clinically Meaningful Failures in Machine Learning for Medical Imaging",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 67,
+    "content": "We propose regression networks for the problem of few-shot classification, where a classifier must generalize to new classes not seen in the training set, given only a small number of examples of each class. In high dimensional embedding spaces the direction of data generally contains richer information than magnitude. Next to this, state-of-the-art few-shot metric methods that compare distances with aggregated class representations, have shown superior performance. Combining these two insights, we propose to meta-learn classification of embedded points by regressing the closest approximation in every class subspace while using the regression error as a distance metric. Similarly to recent approaches for few-shot learning, regression networks reflect a simple inductive bias that is beneficial in this limited-data regime and they achieve excellent results, especially when more aggregate class representations can be formed with multiple shots.",
+    "metadata": {
+      "title": "Regression Networks for Meta-Learning Few-Shot Classification",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 68,
+    "content": "In the era of big data, many big organizations are integrating machine learning into their work pipelines to facilitate data analysis. However, the performance of their trained models is often restricted by limited and imbalanced data available to them. In this work, we develop an assisted learning framework for assisting organizations to improve their learning performance. The organizations have sufficient computation resources but are subject to stringent data-sharing and collaboration policies. Their limited imbalanced data often cause biased inference and sub-optimal decision-making. In assisted learning, an organizational learner purchases assistance service from an external service provider and aims to enhance its model performance within only a few assistance rounds. We develop effective stochastic training algorithms for both assisted deep learning and assisted reinforcement learning. Different from existing distributed algorithms that need to frequently transmit gradients or models, our framework allows the learner to only occasionally share information with the service provider, but still obtain a model that achieves near-oracle performance as if all the data were centralized.",
+    "metadata": {
+      "title": "Assisted Learning for Organizations with Limited Imbalanced Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 69,
+    "content": "It is important for official statistics production to apply ML with statistical rigor, as it presents both opportunities and challenges. Although machine learning has enjoyed rapid technological advances in recent years, its application does not possess the methodological robustness necessary to produce high quality statistical results. In order to account for all sources of error in machine learning models, the Total Machine Learning Error (TMLE) is presented as a framework analogous to the Total Survey Error Model used in survey methodology. As a means of ensuring that ML models are both internally valid as well as externally valid, the TMLE model addresses issues such as representativeness and measurement errors. There are several case studies presented, illustrating the importance of applying more rigor to the application of machine learning in official statistics.",
+    "metadata": {
+      "title": "Leveraging Machine Learning for Official Statistics: A Statistical Manifesto",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 70,
+    "content": "Machine learning is rapidly making its pathway across all of the natural sciences, including physical sciences. The rate at which ML is impacting non-scientific disciplines is incomparable to that in the physical sciences. This is partly due to the uninterpretable nature of deep neural networks. Symbolic machine learning stands as an equal and complementary partner to numerical machine learning in speeding up scientific discovery in physics. This perspective discusses the main differences between the ML and scientific approaches. It stresses the need to develop and apply symbolic machine learning to physics problems equally, in parallel to numerical machine learning, because of the dual nature of physics research.",
+    "metadata": {
+      "title": "A Perspective on Symbolic Machine Learning in Physical Sciences",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 71,
+    "content": "The need for transparency of predictive systems based on Machine Learning algorithms arises as a consequence of their ever-increasing proliferation in the industry. Whenever black-box algorithmic predictions influence human affairs, the inner workings of these algorithms should be scrutinised and their decisions explained to the relevant stakeholders, including the system engineers, the system's operators and the individuals whose case is being decided. While a variety of interpretability and explainability methods is available, none of them is a panacea that can satisfy all diverse expectations and competing objectives that might be required by the parties involved. We address this challenge in this paper by discussing the promises of Interactive Machine Learning for improved transparency of black-box systems using the example of contrastive explanations -- a state-of-the-art approach to Interpretable Machine Learning.\n  Specifically, we show how to personalise counterfactual explanations by interactively adjusting their conditional statements and extract additional explanations by asking follow-up \"What if?\" questions. Our experience in building, deploying and presenting this type of system allowed us to list desired properties as well as potential limitations, which can be used to guide the development of interactive explainers. While customising the medium of interaction, i.e., the user interface comprising of various communication channels, may give an impression of personalisation, we argue that adjusting the explanation itself and its content is more important. To this end, properties such as breadth, scope, context, purpose and target of the explanation have to be considered, in addition to explicitly informing the explainee about its limitations and caveats...",
+    "metadata": {
+      "title": "One Explanation Does Not Fit All: The Promise of Interactive Explanations for Machine Learning Transparency",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 72,
+    "content": "We consider the problem of predicting how the likelihood of an outcome of interest for a patient changes over time as we observe more of the patient data. To solve this problem, we propose a supervised contrastive learning framework that learns an embedding representation for each time step of a patient time series. Our framework learns the embedding space to have the following properties: (1) nearby points in the embedding space have similar predicted class probabilities, (2) adjacent time steps of the same time series map to nearby points in the embedding space, and (3) time steps with very different raw feature vectors map to far apart regions of the embedding space. To achieve property (3), we employ a nearest neighbor pairing mechanism in the raw feature space. This mechanism also serves as an alternative to data augmentation, a key ingredient of contrastive learning, which lacks a standard procedure that is adequately realistic for clinical tabular data, to our knowledge. We demonstrate that our approach outperforms state-of-the-art baselines in predicting mortality of septic patients (MIMIC-III dataset) and tracking progression of cognitive impairment (ADNI dataset). Our method also consistently recovers the correct synthetic dataset embedding structure across experiments, a feat not achieved by baselines. Our ablation experiments show the pivotal role of our nearest neighbor pairing.",
+    "metadata": {
+      "title": "Temporal Supervised Contrastive Learning for Modeling Patient Risk Progression",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 73,
+    "content": "Electronic health record (EHR) data is collected by individual institutions and often stored across locations in silos. Getting access to these data is difficult and slow due to security, privacy, regulatory, and operational issues. We show, using ICU data from 58 different hospitals, that machine learning models to predict patient mortality can be trained efficiently without moving health data out of their silos using a distributed machine learning strategy. We propose a new method, called Federated-Autonomous Deep Learning (FADL) that trains part of the model using all data sources in a distributed manner and other parts using data from specific data sources. We observed that FADL outperforms traditional federated learning strategy and conclude that balance between global and local training is an important factor to consider when design distributed machine learning methods , especially in healthcare.",
+    "metadata": {
+      "title": "FADL:Federated-Autonomous Deep Learning for Distributed Electronic Health Record",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 74,
+    "content": "Machine learning (ML) has become a commodity in our every-day lives. We routinely ask ML empowered smartphones to suggest lovely food places or to guide us through a strange place. ML methods have also become standard tools in many fields of science and engineering. A plethora of ML applications transform human lives at unprecedented pace and scale. This book portrays ML as the combination of three basic components: data, model and loss. ML methods combine these three components within computationally efficient implementations of the basic scientific principle \"trial and error\". This principle consists of the continuous adaptation of a hypothesis about a phenomenon that generates data. ML methods use a hypothesis to compute predictions for future events. We believe that thinking about ML as combinations of three components given by data, model, and loss helps to navigate the steadily growing offer for ready-to-use ML methods. Our three-component picture of ML allows a unified treatment of a wide range of concepts and techniques which seem quite unrelated at first sight. The regularization effect of early stopping in iterative methods is due to the shrinking of the effective hypothesis space. Privacy-preserving ML is obtained by particular choices for the features of data points. Explainable ML methods are characterized by particular choices for the hypothesis space. To make good use of ML tools it is instrumental to understand its underlying principles at different levels of detail. On a lower level, this tutorial helps ML engineers to choose suitable methods for the application at hand. The book also offers a higher-level view on the implementation of ML methods which is typically required to manage a team of ML engineers and data scientists.",
+    "metadata": {
+      "title": "Machine Learning: The Basics",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 75,
+    "content": "Adherence can be defined as \"the extent to which patients take their medications as prescribed by their healthcare providers\"[Osterberg and Blaschke, 2005]. World Health Organization's reports point out that, in developed countries, only about 50% of patients with chronic diseases correctly follow their treatments. This severely compromises the efficiency of long-term therapy and increases the cost of health services. We propose in this paper different models of patient drug consumption in breast cancer treatments. The aim of these different approaches is to predict medication non-adherence while giving insights to doctors of the underlying reasons of these illegitimate drop-outs. Working with oncologists, we show the interest of Machine- Learning algorithms fined tune by the feedback of experts to estimate a risk score of a patient's non-adherence and thus improve support throughout their care path.",
+    "metadata": {
+      "title": "Machine Learning on Electronic Health Records: Models and Features Usages to predict Medication Non-Adherence",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 76,
+    "content": "Recent efforts in Machine Learning (ML) interpretability have focused on creating methods for explaining black-box ML models. However, these methods rely on the assumption that simple approximations, such as linear models or decision-trees, are inherently human-interpretable, which has not been empirically tested. Additionally, past efforts have focused exclusively on comprehension, neglecting to explore the trust component necessary to convince non-technical experts, such as clinicians, to utilize ML models in practice. In this paper, we posit that reinforcement learning (RL) can be used to learn what is interpretable to different users and, consequently, build their trust in ML models. To validate this idea, we first train a neural network to provide risk assessments for heart failure patients. We then design a RL-based clinical decision-support system (DSS) around the neural network model, which can learn from its interactions with users. We conduct an experiment involving a diverse set of clinicians from multiple institutions in three different countries. Our results demonstrate that ML experts cannot accurately predict which system outputs will maximize clinicians' confidence in the underlying neural network model, and suggest additional findings that have broad implications to the future of research into ML interpretability and the use of ML in medicine.",
+    "metadata": {
+      "title": "What is Interpretable? Using Machine Learning to Design Interpretable Decision-Support Systems",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 77,
+    "content": "Data collection in economically constrained countries often necessitates using approximate and biased measurements due to the low-cost of the sensors used. This leads to potentially invalid predictions and poor policies or decision making. This is especially an issue if methods from resource-rich regions are applied without handling these additional constraints. In this paper we show, through the use of an air pollution network example, how using probabilistic machine learning can mitigate some of the technical constraints. Specifically we experiment with modelling the calibration for individual sensors as either distributions or Gaussian processes over time, and discuss the wider issues around the decision process.",
+    "metadata": {
+      "title": "Machine Learning for a Low-cost Air Pollution Network",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 78,
+    "content": "In machine learning, the choice of a learning algorithm that is suitable for the application domain is critical. The performance metric used to compare different algorithms must also reflect the concerns of users in the application domain under consideration. In this work, we propose a novel probability-based performance metric called Relevance Score for evaluating supervised learning algorithms. We evaluate the proposed metric through empirical analysis on a dataset gathered from an intelligent lighting pilot installation. In comparison to the commonly used Classification Accuracy metric, the Relevance Score proves to be more appropriate for a certain class of applications.",
+    "metadata": {
+      "title": "Relevance As a Metric for Evaluating Machine Learning Algorithms",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 79,
+    "content": "Multi-modal co-learning is emerging as an effective paradigm in machine learning, enabling models to collaboratively learn from different modalities to enhance single-modality predictions. Earth Observation (EO) represents a quintessential domain for multi-modal data analysis, wherein diverse remote sensors collect data to sense our planet. This unprecedented volume of data introduces novel challenges. Specifically, the access to the same sensor modalities at both training and inference stages becomes increasingly complex based on real-world constraints affecting remote sensing platforms. In this context, multi-modal co-learning presents a promising strategy to leverage the vast amount of sensor-derived data available at the training stage to improve single-modality models for inference-time deployment. Most current research efforts focus on designing customized solutions for either particular downstream tasks or specific modalities available at the inference stage. To address this, we propose a novel multi-modal co-learning framework capable of generalizing across various tasks without targeting a specific modality for inference. Our approach combines contrastive and modality discriminative learning together to guide single-modality models to structure the internal model manifold into modality-shared and modality-specific information. We evaluate our framework on four EO benchmarks spanning classification and regression tasks across different sensor modalities, where only one of the modalities available during training is accessible at inference time. Our results demonstrate consistent predictive improvements over state-of-the-art approaches from the recent machine learning and computer vision literature, as well as EO-specific methods. The obtained findings validate our framework in the single-modality inference scenarios across a diverse range of EO applications.",
+    "metadata": {
+      "title": "Multi-modal Co-learning for Earth Observation: Enhancing single-modality models via modality collaboration",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 80,
+    "content": "Though machine learning has achieved notable success in modeling sequential and spatial data for speech recognition and in computer vision, applications to remote sensing and climate science problems are seldom considered. In this paper, we demonstrate techniques from unsupervised learning of future video frame prediction, to increase the accuracy of ice flow tracking in multi-spectral satellite images. As the volume of cryosphere data increases in coming years, this is an interesting and important opportunity for machine learning to address a global challenge for climate change, risk management from floods, and conserving freshwater resources. Future frame prediction of ice melt and tracking the optical flow of ice dynamics presents modeling difficulties, due to uncertainties in global temperature increase, changing precipitation patterns, occlusion from cloud cover, rapid melting and glacier retreat due to black carbon aerosol deposition, from wildfires or human fossil emissions. We show the adversarial learning method helps improve the accuracy of tracking the optical flow of ice dynamics compared to existing methods in climate science. We present a dataset, IceNet, to encourage machine learning research and to help facilitate further applications in the areas of cryospheric science and climate change.",
+    "metadata": {
+      "title": "Predicting ice flow using machine learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 81,
+    "content": "The requirements on explainability imposed by European laws and their implications for machine learning (ML) models are not always clear. In that perspective, our research analyzes explanation obligations imposed for private and public decision-making, and how they can be implemented by machine learning techniques.",
+    "metadata": {
+      "title": "Impact of Legal Requirements on Explainability in Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 82,
+    "content": "Hyperparameters are configuration variables controlling the behavior of machine learning algorithms. They are ubiquitous in machine learning and artificial intelligence and the choice of their values determines the effectiveness of systems based on these technologies. Manual hyperparameter search is often time-consuming and becomes infeasible when the number of hyperparameters is large. Automating the search is an important step towards advancing, streamlining, and systematizing machine learning, freeing researchers and practitioners alike from the burden of finding a good set of hyperparameters by trial and error. In this survey, we present a unified treatment of hyperparameter optimization, providing the reader with examples, insights into the state-of-the-art, and numerous links to further reading. We cover the main families of techniques to automate hyperparameter search, often referred to as hyperparameter optimization or tuning, including random and quasi-random search, bandit-, model-, population-, and gradient-based approaches. We further discuss extensions, including online, constrained, and multi-objective formulations, touch upon connections with other fields, such as meta-learning and neural architecture search, and conclude with open questions and future research directions.",
+    "metadata": {
+      "title": "Hyperparameter Optimization in Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 83,
+    "content": "The approaches by which the machine learning and clinical research communities utilize real world data (RWD), including data captured in the electronic health record (EHR), vary dramatically. While clinical researchers cautiously use RWD for clinical investigations, ML for healthcare teams consume public datasets with minimal scrutiny to develop new algorithms. This study bridges this gap by developing and validating ML-DQA, a data quality assurance framework grounded in RWD best practices. The ML-DQA framework is applied to five ML projects across two geographies, different medical conditions, and different cohorts. A total of 2,999 quality checks and 24 quality reports were generated on RWD gathered on 247,536 patients across the five projects. Five generalizable practices emerge: all projects used a similar method to group redundant data element representations; all projects used automated utilities to build diagnosis and medication data elements; all projects used a common library of rules-based transformations; all projects used a unified approach to assign data quality checks to data elements; and all projects used a similar approach to clinical adjudication. An average of 5.8 individuals, including clinicians, data scientists, and trainees, were involved in implementing ML-DQA for each project and an average of 23.4 data elements per project were either transformed or removed in response to ML-DQA. This study demonstrates the importance role of ML-DQA in healthcare projects and provides teams a framework to conduct these essential activities.",
+    "metadata": {
+      "title": "Development and Validation of ML-DQA -- a Machine Learning Data Quality Assurance Framework for Healthcare",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 84,
+    "content": "Partial differential equations (PDEs) are central to describing and modelling complex physical systems that arise in many disciplines across science and engineering. However, in many realistic applications PDE modelling provides an incomplete description of the physics of interest. PDE-based machine learning techniques are designed to address this limitation. In this approach, the PDE is used as an inductive bias enabling the coupled model to rely on fundamental physical laws while requiring less training data. The deployment of high-performance simulations coupling PDEs and machine learning to complex problems necessitates the composition of capabilities provided by machine learning and PDE-based frameworks. We present a simple yet effective coupling between the machine learning framework PyTorch and the PDE system Firedrake that provides researchers, engineers and domain specialists with a high productive way of specifying coupled models while only requiring trivial changes to existing code.",
+    "metadata": {
+      "title": "Physics-driven machine learning models coupling PyTorch and Firedrake",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 85,
+    "content": "Accurate and reliable prediction of hospital admission location is important due to resource-constraints and space availability in a clinical setting, particularly when dealing with patients who come from the emergency department. In this work we propose a student-teacher network via reinforcement learning to deal with this specific problem. A representation of the weights of the student network is treated as the state and is fed as an input to the teacher network. The teacher network's action is to select the most appropriate batch of data to train the student network on from a training set sorted according to entropy. By validating on three datasets, not only do we show that our approach outperforms state-of-the-art methods on tabular data and performs competitively on image recognition, but also that novel curricula are learned by the teacher network. We demonstrate experimentally that the teacher network can actively learn about the student network and guide it to achieve better performance than if trained alone.",
+    "metadata": {
+      "title": "Student-Teacher Curriculum Learning via Reinforcement Learning: Predicting Hospital Inpatient Admission Location",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 86,
+    "content": "In the last decades, the capacity to generate large amounts of data in science and engineering applications has been growing steadily. Meanwhile, machine learning has progressed to become a suitable tool to process and utilise the available data. Nonetheless, many relevant scientific and engineering problems present challenges where current machine learning methods cannot yet efficiently leverage the available data and resources. For example, in scientific discovery, we are often faced with the problem of exploring very large, structured and high-dimensional spaces. Moreover, the high fidelity, black-box objective function is often very expensive to evaluate. Progress in machine learning methods that can efficiently tackle such challenges would help accelerate currently crucial areas such as drug and materials discovery. In this paper, we propose a multi-fidelity active learning algorithm with GFlowNets as a sampler, to efficiently discover diverse, high-scoring candidates where multiple approximations of the black-box function are available at lower fidelity and cost. Our evaluation on molecular discovery tasks shows that multi-fidelity active learning with GFlowNets can discover high-scoring candidates at a fraction of the budget of its single-fidelity counterpart while maintaining diversity, unlike RL-based alternatives. These results open new avenues for multi-fidelity active learning to accelerate scientific discovery and engineering design.",
+    "metadata": {
+      "title": "Multi-Fidelity Active Learning with GFlowNets",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 87,
+    "content": "We introduce Thurstonian Boltzmann Machines (TBM), a unified architecture that can naturally incorporate a wide range of data inputs at the same time. Our motivation rests in the Thurstonian view that many discrete data types can be considered as being generated from a subset of underlying latent continuous variables, and in the observation that each realisation of a discrete type imposes certain inequalities on those variables. Thus learning and inference in TBM reduce to making sense of a set of inequalities. Our proposed TBM naturally supports the following types: Gaussian, intervals, censored, binary, categorical, muticategorical, ordinal, (in)-complete rank with and without ties. We demonstrate the versatility and capacity of the proposed model on three applications of very different natures; namely handwritten digit recognition, collaborative filtering and complex social survey analysis.",
+    "metadata": {
+      "title": "Thurstonian Boltzmann Machines: Learning from Multiple Inequalities",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 88,
+    "content": "Supervised machine learning algorithms have seen spectacular advances and surpassed human level performance in a wide range of specific applications. However, using complex ensemble or deep learning algorithms typically results in black box models, where the path leading to individual predictions cannot be followed in detail. In order to address this issue, we propose the novel \"Cyclic Boosting\" machine learning algorithm, which allows to efficiently perform accurate regression and classification tasks while at the same time allowing a detailed understanding of how each individual prediction was made.",
+    "metadata": {
+      "title": "Cyclic Boosting -- an explainable supervised machine learning algorithm",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 89,
+    "content": "The Clock Drawing Test (CDT) is a rapid, inexpensive, and popular neuropsychological screening tool for cognitive conditions. The Digital Clock Drawing Test (dCDT) uses novel software to analyze data from a digitizing ballpoint pen that reports its position with considerable spatial and temporal precision, making possible the analysis of both the drawing process and final product. We developed methodology to analyze pen stroke data from these drawings, and computed a large collection of features which were then analyzed with a variety of machine learning techniques. The resulting scoring systems were designed to be more accurate than the systems currently used by clinicians, but just as interpretable and easy to use. The systems also allow us to quantify the tradeoff between accuracy and interpretability. We created automated versions of the CDT scoring systems currently used by clinicians, allowing us to benchmark our models, which indicated that our machine learning models substantially outperformed the existing scoring systems.",
+    "metadata": {
+      "title": "Interpretable Machine Learning Models for the Digital Clock Drawing Test",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 90,
+    "content": "Julia has been heralded as a potential successor to Python for scientific machine learning and numerical computing, boasting ergonomic and performance improvements. Since Julia's inception in 2012 and declaration of language goals in 2017, its ecosystem and language-level features have grown tremendously. In this paper, we take a modern look at Julia's features and ecosystem, assess the current state of the language, and discuss its viability and pitfalls as a replacement for Python as the de-facto scientific machine learning language. We call for the community to address Julia's language-level issues that are preventing further adoption.",
+    "metadata": {
+      "title": "The State of Julia for Scientific Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 91,
+    "content": "Machine learning for healthcare often trains models on de-identified datasets with randomly-shifted calendar dates, ignoring the fact that data were generated under hospital operation practices that change over time. These changing practices induce definitive changes in observed data which confound evaluations which do not account for dates and limit the generalisability of date-agnostic models. In this work, we establish the magnitude of this problem on MIMIC, a public hospital dataset, and showcase a simple solution. We augment MIMIC with the year in which care was provided and show that a model trained using standard feature representations will significantly degrade in quality over time. We find a deterioration of 0.3 AUC when evaluating mortality prediction on data from 10 years later. We find a similar deterioration of 0.15 AUC for length-of-stay. In contrast, we demonstrate that clinically-oriented aggregates of raw features significantly mitigate future deterioration. Our suggested aggregated representations, when retrained yearly, have prediction quality comparable to year-agnostic models.",
+    "metadata": {
+      "title": "Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 92,
+    "content": "Units equivariance (or units covariance) is the exact symmetry that follows from the requirement that relationships among measured quantities of physics relevance must obey self-consistent dimensional scalings. Here, we express this symmetry in terms of a (non-compact) group action, and we employ dimensional analysis and ideas from equivariant machine learning to provide a methodology for exactly units-equivariant machine learning: For any given learning task, we first construct a dimensionless version of its inputs using classic results from dimensional analysis, and then perform inference in the dimensionless space. Our approach can be used to impose units equivariance across a broad range of machine learning methods which are equivariant to rotations and other groups. We discuss the in-sample and out-of-sample prediction accuracy gains one can obtain in contexts like symbolic regression and emulation, where symmetry is important. We illustrate our approach with simple numerical examples involving dynamical systems in physics and ecology.",
+    "metadata": {
+      "title": "Dimensionless machine learning: Imposing exact units equivariance",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 93,
+    "content": "Biological datasets amenable to applied machine learning are more available today than ever before, yet they lack adequate representation in the Data-for-Good community. Here we present a work in progress case study performing analysis on antimicrobial resistance (AMR) using standard ensemble machine learning techniques and note the successes and pitfalls such work entails. Broadly, applied machine learning (AML) techniques are well suited to AMR, with classification accuracies ranging from mid-90% to low- 80% depending on sample size. Additionally, these techniques prove successful at identifying gene regions known to be associated with the AMR phenotype. We believe that the extensive amount of biological data available, the plethora of problems presented, and the global impact of such work merits the consideration of the Data- for-Good community.",
+    "metadata": {
+      "title": "Machine Learning for Antimicrobial Resistance",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 94,
+    "content": "It is commonly believed that increasing the interpretability of a machine learning model may decrease its predictive power. However, inspecting input-output relationships of those models using visual analytics, while treating them as black-box, can help to understand the reasoning behind outcomes without sacrificing predictive quality. We identify a space of possible solutions and provide two examples of where such techniques have been successfully used in practice.",
+    "metadata": {
+      "title": "Using Visual Analytics to Interpret Predictive Machine Learning Models",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 95,
+    "content": "We propose a clustering-based iterative algorithm to solve certain optimization problems in machine learning, where we start the algorithm by aggregating the original data, solving the problem on aggregated data, and then in subsequent steps gradually disaggregate the aggregated data. We apply the algorithm to common machine learning problems such as the least absolute deviation regression problem, support vector machines, and semi-supervised support vector machines. We derive model-specific data aggregation and disaggregation procedures. We also show optimality, convergence, and the optimality gap of the approximated solution in each iteration. A computational study is provided.",
+    "metadata": {
+      "title": "An Aggregate and Iterative Disaggregate Algorithm with Proven Optimality in Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 96,
+    "content": "DoubleML is an open-source Python library implementing the double machine learning framework of Chernozhukov et al. (2018) for a variety of causal models. It contains functionalities for valid statistical inference on causal parameters when the estimation of nuisance parameters is based on machine learning methods. The object-oriented implementation of DoubleML provides a high flexibility in terms of model specifications and makes it easily extendable. The package is distributed under the MIT license and relies on core libraries from the scientific Python ecosystem: scikit-learn, numpy, pandas, scipy, statsmodels and joblib. Source code, documentation and an extensive user guide can be found at https://github.com/DoubleML/doubleml-for-py and https://docs.doubleml.org.",
+    "metadata": {
+      "title": "DoubleML -- An Object-Oriented Implementation of Double Machine Learning in Python",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 97,
+    "content": "Metric learning has the aim to improve classification accuracy by learning a distance measure which brings data points from the same class closer together and pushes data points from different classes further apart. Recent research has demonstrated that metric learning approaches can also be applied to trees, such as molecular structures, abstract syntax trees of computer programs, or syntax trees of natural language, by learning the cost function of an edit distance, i.e. the costs of replacing, deleting, or inserting nodes in a tree. However, learning such costs directly may yield an edit distance which violates metric axioms, is challenging to interpret, and may not generalize well. In this contribution, we propose a novel metric learning approach for trees which we call embedding edit distance learning (BEDL) and which learns an edit distance indirectly by embedding the tree nodes as vectors, such that the Euclidean distance between those vectors supports class discrimination. We learn such embeddings by reducing the distance to prototypical trees from the same class and increasing the distance to prototypical trees from different classes. In our experiments, we show that BEDL improves upon the state-of-the-art in metric learning for trees on six benchmark data sets, ranging from computer science over biomedical data to a natural-language processing data set containing over 300,000 nodes.",
+    "metadata": {
+      "title": "Tree Edit Distance Learning via Adaptive Symbol Embeddings",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 98,
+    "content": "We demonstrate a validity problem of machine learning in the vital application area of disease diagnosis in medicine. It arises when target labels in training data are determined by an indirect measurement, and the fundamental measurements needed to determine this indirect measurement are included in the input data representation. Machine learning models trained on this data will learn nothing else but to exactly reconstruct the known target definition. Such models show perfect performance on similarly constructed test data but will fail catastrophically on real-world examples where the defining fundamental measurements are not or only incompletely available. We present a general procedure allowing identification of problematic datasets and black-box machine learning models trained on them, and exemplify our detection procedure on the task of early prediction of sepsis.",
+    "metadata": {
+      "title": "Validity problems in clinical machine learning by indirect data labeling using consensus definitions",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 99,
+    "content": "We present the backbone method, a generic framework that enables sparse and interpretable supervised machine learning methods to scale to ultra-high dimensional problems. We solve sparse regression problems with $10^7$ features in minutes and $10^8$ features in hours, as well as decision tree problems with $10^5$ features in minutes.The proposed method operates in two phases: we first determine the backbone set, consisting of potentially relevant features, by solving a number of tractable subproblems; then, we solve a reduced problem, considering only the backbone features. For the sparse regression problem, our theoretical analysis shows that, under certain assumptions and with high probability, the backbone set consists of the truly relevant features. Numerical experiments on both synthetic and real-world datasets demonstrate that our method outperforms or competes with state-of-the-art methods in ultra-high dimensional problems, and competes with optimal solutions in problems where exact methods scale, both in terms of recovering the truly relevant features and in its out-of-sample predictive performance.",
+    "metadata": {
+      "title": "The Backbone Method for Ultra-High Dimensional Sparse Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 100,
+    "content": "First-order stochastic methods are the state-of-the-art in large-scale machine learning optimization owing to efficient per-iteration complexity. Second-order methods, while able to provide faster convergence, have been much less explored due to the high cost of computing the second-order information. In this paper we develop second-order stochastic methods for optimization problems in machine learning that match the per-iteration cost of gradient based methods, and in certain settings improve upon the overall running time over popular first-order methods. Furthermore, our algorithm has the desirable property of being implementable in time linear in the sparsity of the input data.",
+    "metadata": {
+      "title": "Second-Order Stochastic Optimization for Machine Learning in Linear Time",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 101,
+    "content": "This paper presents a comparison of six machine learning (ML) algorithms: GRU-SVM (Agarap, 2017), Linear Regression, Multilayer Perceptron (MLP), Nearest Neighbor (NN) search, Softmax Regression, and Support Vector Machine (SVM) on the Wisconsin Diagnostic Breast Cancer (WDBC) dataset (Wolberg, Street, & Mangasarian, 1992) by measuring their classification test accuracy and their sensitivity and specificity values. The said dataset consists of features which were computed from digitized images of FNA tests on a breast mass (Wolberg, Street, & Mangasarian, 1992). For the implementation of the ML algorithms, the dataset was partitioned in the following fashion: 70% for training phase, and 30% for the testing phase. The hyper-parameters used for all the classifiers were manually assigned. Results show that all the presented ML algorithms performed well (all exceeded 90% test accuracy) on the classification task. The MLP algorithm stands out among the implemented algorithms with a test accuracy of ~99.04%.",
+    "metadata": {
+      "title": "On Breast Cancer Detection: An Application of Machine Learning Algorithms on the Wisconsin Diagnostic Dataset",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 102,
+    "content": "Chronic kidney disease (CKD) is a significant public health challenge, often progressing to end-stage renal disease (ESRD) if not detected and managed early. Early intervention, warranted by silent disease progression, can significantly reduce associated morbidity, mortality, and financial burden. In this study, we propose a novel approach to modeling CKD progression using a combination of machine learning techniques and classical statistical models. Building on the work of Liu et al. (2023), we evaluate linear models, tree-based methods, and deep learning models to extract novel predictors for CKD progression, with feature importance assessed using Shapley values. These newly identified predictors, integrated with established clinical features from the Kidney Failure Risk Equation, are then applied within the framework of Cox proportional hazards models to predict CKD progression.",
+    "metadata": {
+      "title": "Integrated Machine Learning and Survival Analysis Modeling for Enhanced Chronic Kidney Disease Risk Stratification",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 103,
+    "content": "Learning novel concepts while preserving prior knowledge is a long-standing challenge in machine learning. The challenge gets greater when a novel task is given with only a few labeled examples, a problem known as incremental few-shot learning. We propose XtarNet, which learns to extract task-adaptive representation (TAR) for facilitating incremental few-shot learning. The method utilizes a backbone network pretrained on a set of base categories while also employing additional modules that are meta-trained across episodes. Given a new task, the novel feature extracted from the meta-trained modules is mixed with the base feature obtained from the pretrained model. The process of combining two different features provides TAR and is also controlled by meta-trained modules. The TAR contains effective information for classifying both novel and base categories. The base and novel classifiers quickly adapt to a given task by utilizing the TAR. Experiments on standard image datasets indicate that XtarNet achieves state-of-the-art incremental few-shot learning performance. The concept of TAR can also be used in conjunction with existing incremental few-shot learning methods; extensive simulation results in fact show that applying TAR enhances the known methods significantly.",
+    "metadata": {
+      "title": "XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 104,
+    "content": "The prediction of absorption, distribution, metabolism, excretion, and toxicity (ADMET) of small molecules from their molecular structure is a central problem in medicinal chemistry with great practical importance in drug discovery. Creating predictive models conventionally requires substantial trial-and-error for the selection of molecular representations, machine learning (ML) algorithms, and hyperparameter tuning. A generally applicable method that performs well on all datasets without tuning would be of great value but is currently lacking. Here, we describe Pareto-Optimal Embedded Modeling (POEM), a similarity-based method for predicting molecular properties. POEM is a non-parametric, supervised ML algorithm developed to generate reliable predictive models without need for optimization. POEMs predictive strength is obtained by combining multiple different representations of molecular structures in a context-specific manner, while maintaining low dimensionality. We benchmark POEM relative to industry-standard ML algorithms and published results across 17 classifications tasks. POEM performs well in all cases and reduces the risk of overfitting.",
+    "metadata": {
+      "title": "Predicting drug properties with parameter-free machine learning: Pareto-Optimal Embedded Modeling (POEM)",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 105,
+    "content": "Models play an essential role in the design process of cyber-physical systems. They form the basis for simulation and analysis and help in identifying design problems as early as possible. However, the construction of models that comprise physical and digital behavior is challenging. Therefore, there is considerable interest in learning such hybrid behavior by means of machine learning which requires sufficient and representative training data covering the behavior of the physical system adequately. In this work, we exploit a combination of automata learning and model-based testing to generate sufficient training data fully automatically.\n  Experimental results on a platooning scenario show that recurrent neural networks learned with this data achieved significantly better results compared to models learned from randomly generated data. In particular, the classification error for crash detection is reduced by a factor of five and a similar F1-score is obtained with up to three orders of magnitude fewer training samples.",
+    "metadata": {
+      "title": "Learning a Behavior Model of Hybrid Systems Through Combining Model-Based Testing and Machine Learning (Full Version)",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 106,
+    "content": "Fair Machine Learning endeavors to prevent unfairness arising in the context of machine learning applications embedded in society. Despite the variety of definitions of fairness and proposed \"fair algorithms\", there remain unresolved conceptual problems regarding fairness. In this paper, we dissect the role of statistical independence in fairness and randomness notions regularly used in machine learning. Thereby, we are led to a suprising hypothesis: randomness and fairness can be considered equivalent concepts in machine learning.\n  In particular, we obtain a relativized notion of randomness expressed as statistical independence by appealing to Von Mises' century-old foundations for probability. This notion turns out to be \"orthogonal\" in an abstract sense to the commonly used i.i.d.-randomness. Using standard fairness notions in machine learning, which are defined via statistical independence, we then link the ex ante randomness assumptions about the data to the ex post requirements for fair predictions. This connection proves fruitful: we use it to argue that randomness and fairness are essentially relative and that both concepts should reflect their nature as modeling assumptions in machine learning.",
+    "metadata": {
+      "title": "Fairness and Randomness in Machine Learning: Statistical Independence and Relativization",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 107,
+    "content": "Incremental gradient (IG) methods, such as stochastic gradient descent and its variants are commonly used for large scale optimization in machine learning. Despite the sustained effort to make IG methods more data-efficient, it remains an open question how to select a training data subset that can theoretically and practically perform on par with the full dataset. Here we develop CRAIG, a method to select a weighted subset (or coreset) of training data that closely estimates the full gradient by maximizing a submodular function. We prove that applying IG to this subset is guaranteed to converge to the (near)optimal solution with the same convergence rate as that of IG for convex optimization. As a result, CRAIG achieves a speedup that is inversely proportional to the size of the subset. To our knowledge, this is the first rigorous method for data-efficient training of general machine learning models. Our extensive set of experiments show that CRAIG, while achieving practically the same solution, speeds up various IG methods by up to 6x for logistic regression and 3x for training deep neural networks.",
+    "metadata": {
+      "title": "Coresets for Data-efficient Training of Machine Learning Models",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 108,
+    "content": "This paper represents a groundbreaking advancement in Parkinson disease (PD) research by employing a novel machine learning framework to categorize PD into distinct subtypes and predict its progression. Utilizing a comprehensive dataset encompassing both clinical and neurological parameters, the research applies advanced supervised and unsupervised learning techniques. This innovative approach enables the identification of subtle, yet critical, patterns in PD manifestation, which traditional methodologies often miss. Significantly, this research offers a path toward personalized treatment strategies, marking a major stride in the precision medicine domain and showcasing the transformative potential of integrating machine learning into medical research.",
+    "metadata": {
+      "title": "Analysis, Identification and Prediction of Parkinson Disease Sub-Types and Progression through Machine Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 109,
+    "content": "As real-world images come in varying sizes, the machine learning model is part of a larger system that includes an upstream image scaling algorithm. In this paper, we investigate the interplay between vulnerabilities of the image scaling procedure and machine learning models in the decision-based black-box setting. We propose a novel sampling strategy to make a black-box attack exploit vulnerabilities in scaling algorithms, scaling defenses, and the final machine learning model in an end-to-end manner. Based on this scaling-aware attack, we reveal that most existing scaling defenses are ineffective under threat from downstream models. Moreover, we empirically observe that standard black-box attacks can significantly improve their performance by exploiting the vulnerable scaling procedure. We further demonstrate this problem on a commercial Image Analysis API with decision-based black-box attacks.",
+    "metadata": {
+      "title": "Rethinking Image-Scaling Attacks: The Interplay Between Vulnerabilities in Machine Learning Systems",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 110,
+    "content": "The infinite restricted Boltzmann machine (iRBM) is an extension of the classic RBM. It enjoys a good property of automatically deciding the size of the hidden layer according to specific training data. With sufficient training, the iRBM can achieve a competitive performance with that of the classic RBM. However, the convergence of learning the iRBM is slow, due to the fact that the iRBM is sensitive to the ordering of its hidden units, the learned filters change slowly from the left-most hidden unit to right. To break this dependency between neighboring hidden units and speed up the convergence of training, a novel training strategy is proposed. The key idea of the proposed training strategy is randomly regrouping the hidden units before each gradient descent step. Potentially, a mixing of infinite many iRBMs with different permutations of the hidden units can be achieved by this learning method, which has a similar effect of preventing the model from over-fitting as the dropout. The original iRBM is also modified to be capable of carrying out discriminative training. To evaluate the impact of our method on convergence speed of learning and the model's generalization ability, several experiments have been performed on the binarized MNIST and CalTech101 Silhouettes datasets. Experimental results indicate that the proposed training strategy can greatly accelerate learning and enhance generalization ability of iRBMs.",
+    "metadata": {
+      "title": "On better training the infinite restricted Boltzmann machines",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 111,
+    "content": "Backdoor attacks inject poisoning samples during training, with the goal of forcing a machine learning model to output an attacker-chosen class when presented a specific trigger at test time. Although backdoor attacks have been demonstrated in a variety of settings and against different models, the factors affecting their effectiveness are still not well understood. In this work, we provide a unifying framework to study the process of backdoor learning under the lens of incremental learning and influence functions. We show that the effectiveness of backdoor attacks depends on: (i) the complexity of the learning algorithm, controlled by its hyperparameters; (ii) the fraction of backdoor samples injected into the training set; and (iii) the size and visibility of the backdoor trigger. These factors affect how fast a model learns to correlate the presence of the backdoor trigger with the target class. Our analysis unveils the intriguing existence of a region in the hyperparameter space in which the accuracy on clean test samples is still high while backdoor attacks are ineffective, thereby suggesting novel criteria to improve existing defenses.",
+    "metadata": {
+      "title": "Backdoor Learning Curves: Explaining Backdoor Poisoning Beyond Influence Functions",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 112,
+    "content": "The proliferation and application of machine learning based Intrusion Detection Systems (IDS) have allowed for more flexibility and efficiency in the automated detection of cyber attacks in Industrial Control Systems (ICS). However, the introduction of such IDSs has also created an additional attack vector; the learning models may also be subject to cyber attacks, otherwise referred to as Adversarial Machine Learning (AML). Such attacks may have severe consequences in ICS systems, as adversaries could potentially bypass the IDS. This could lead to delayed attack detection which may result in infrastructure damages, financial loss, and even loss of life. This paper explores how adversarial learning can be used to target supervised models by generating adversarial samples using the Jacobian-based Saliency Map attack and exploring classification behaviours. The analysis also includes the exploration of how such samples can support the robustness of supervised models using adversarial training. An authentic power system dataset was used to support the experiments presented herein. Overall, the classification performance of two widely used classifiers, Random Forest and J48, decreased by 16 and 20 percentage points when adversarial samples were present. Their performances improved following adversarial training, demonstrating their robustness towards such attacks.",
+    "metadata": {
+      "title": "Adversarial Attacks on Machine Learning Cybersecurity Defences in Industrial Control Systems",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 113,
+    "content": "The global expansion of maritime activities and the development of the Automatic Identification System (AIS) have driven the advances in maritime monitoring systems in the last decade. Monitoring vessel behavior is fundamental to safeguard maritime operations, protecting other vessels sailing the ocean and the marine fauna and flora. Given the enormous volume of vessel data continually being generated, real-time analysis of vessel behaviors is only possible because of decision support systems provided with event and anomaly detection methods. However, current works on vessel event detection are ad-hoc methods able to handle only a single or a few predefined types of vessel behavior. Most of the existing approaches do not learn from the data and require the definition of queries and rules for describing each behavior. In this paper, we discuss challenges and opportunities in classical machine learning and deep learning for vessel event and anomaly detection. We hope to motivate the research of novel methods and tools, since addressing these challenges is an essential step towards actual intelligent maritime monitoring systems.",
+    "metadata": {
+      "title": "Challenges in Vessel Behavior and Anomaly Detection: From Classical Machine Learning to Deep Learning",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 114,
+    "content": "EnsembleSVM is a free software package containing efficient routines to perform ensemble learning with support vector machine (SVM) base models. It currently offers ensemble methods based on binary SVM models. Our implementation avoids duplicate storage and evaluation of support vectors which are shared between constituent models. Experimental results show that using ensemble approaches can drastically reduce training complexity while maintaining high predictive accuracy. The EnsembleSVM software package is freely available online at http://esat.kuleuven.be/stadius/ensemblesvm.",
+    "metadata": {
+      "title": "EnsembleSVM: A Library for Ensemble Learning Using Support Vector Machines",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 115,
+    "content": "In this paper, we study the generalization properties of online learning based stochastic methods for supervised learning problems where the loss function is dependent on more than one training sample (e.g., metric learning, ranking). We present a generic decoupling technique that enables us to provide Rademacher complexity-based generalization error bounds. Our bounds are in general tighter than those obtained by Wang et al (COLT 2012) for the same problem. Using our decoupling technique, we are further able to obtain fast convergence rates for strongly convex pairwise loss functions. We are also able to analyze a class of memory efficient online learning algorithms for pairwise learning problems that use only a bounded subset of past training samples to update the hypothesis at each step. Finally, in order to complement our generalization bounds, we propose a novel memory efficient online learning algorithm for higher order learning problems with bounded regret guarantees.",
+    "metadata": {
+      "title": "On the Generalization Ability of Online Learning Algorithms for Pairwise Loss Functions",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 116,
+    "content": "This paper addresses intervention-based causal representation learning (CRL) under a general nonparametric latent causal model and an unknown transformation that maps the latent variables to the observed variables. Linear and general transformations are investigated. The paper addresses both the identifiability and achievability aspects. Identifiability refers to determining algorithm-agnostic conditions that ensure the recovery of the true latent causal variables and the underlying latent causal graph. Achievability refers to the algorithmic aspects and addresses designing algorithms that achieve identifiability guarantees. By drawing novel connections between score functions (i.e., the gradients of the logarithm of density functions) and CRL, this paper designs a score-based class of algorithms that ensures both identifiability and achievability. First, the paper focuses on linear transformations and shows that one stochastic hard intervention per node suffices to guarantee identifiability. It also provides partial identifiability guarantees for soft interventions, including identifiability up to mixing with parents for general causal models and perfect recovery of the latent graph for sufficiently nonlinear causal models. Secondly, it focuses on general transformations and demonstrates that two stochastic hard interventions per node are sufficient for identifiability. This is achieved by defining a differentiable loss function whose global optima ensure identifiability for general CRL. Notably, one does not need to know which pair of interventional environments has the same node intervened. Finally, the theoretical results are empirically validated via experiments on structured synthetic data and image data.",
+    "metadata": {
+      "title": "Score-based Causal Representation Learning: Linear and General Transformations",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 117,
+    "content": "Which topics of machine learning are most commonly addressed in research? This question was initially answered in 2007 by doing a qualitative survey among distinguished researchers. In our study, we revisit this question from a quantitative perspective. Concretely, we collect 54K abstracts of papers published between 2007 and 2016 in leading machine learning journals and conferences. We then use machine learning in order to determine the top 10 topics in machine learning. We not only include models, but provide a holistic view across optimization, data, features, etc. This quantitative approach allows reducing the bias of surveys. It reveals new and up-to-date insights into what the 10 most prolific topics in machine learning research are. This allows researchers to identify popular topics as well as new and rising topics for their research.",
+    "metadata": {
+      "title": "The Top 10 Topics in Machine Learning Revisited: A Quantitative Meta-Study",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 118,
+    "content": "Statistical models are central to machine learning with broad applicability across a range of downstream tasks. The models are controlled by free parameters that are typically estimated from data by maximum-likelihood estimation or approximations thereof. However, when faced with real-world data sets many of the models run into a critical issue: they are formulated in terms of fully-observed data, whereas in practice the data sets are plagued with missing data. The theory of statistical model estimation from incomplete data is conceptually similar to the estimation of latent-variable models, where powerful tools such as variational inference (VI) exist. However, in contrast to standard latent-variable models, parameter estimation with incomplete data often requires estimating exponentially-many conditional distributions of the missing variables, hence making standard VI methods intractable. We address this gap by introducing variational Gibbs inference (VGI), a new general-purpose method to estimate the parameters of statistical models from incomplete data. We validate VGI on a set of synthetic and real-world estimation tasks, estimating important machine learning models such as variational autoencoders and normalising flows from incomplete data. The proposed method, whilst general-purpose, achieves competitive or better performance than existing model-specific estimation methods.",
+    "metadata": {
+      "title": "Variational Gibbs Inference for Statistical Model Estimation from Incomplete Data",
+      "source": "arXiv"
+    }
+  },
+  {
+    "id": 119,
+    "content": "Ovarian Cancer (OC) is type of female reproductive malignancy which can be found among young girls and mostly the women in their fertile or reproductive. There are few number of cysts are dangerous and may it cause cancer. So, it is very important to predict and it can be from different types of screening are used for this detection using Transvaginal Ultrasonography (TVUS) screening. In this research, we employed an actual datasets called PLCO with TVUS screening and three machine learning (ML) techniques, respectively Random Forest KNN, and XGBoost within three target variables. We obtained a best performance from this algorithms as far as accuracy, recall, f1 score and precision with the approximations of 99.50%, 99.50%, 99.49% and 99.50% individually. The AUC score of 99.87%, 98.97% and 99.88% are observed in these Random Forest, KNN and XGB algorithms .This approach helps assist physicians and suspects in identifying ovarian risks early on, reducing ovarian malignancy-related complications and deaths.",
+    "metadata": {
+      "title": "Ovarian Cancer Prediction from Ovarian Cysts Based on TVUS Using Machine Learning Algorithms",
+      "source": "arXiv"
+    }
+  }
+]

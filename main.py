@@ -13,6 +13,8 @@ app = FastAPI()
 # Load documents at startup
 documents = fetch_scientific_abstracts()
 vector_store = VectorStore(documents)
+print("Total documents fetched:", len(documents))
+
 
 @app.post("/search")
 async def search(payload: dict):

@@ -4,3 +4,4 @@ cohere
 faiss-cpu
 numpy
 requests
+python-dotenv
