@@ -41,8 +41,8 @@ async def search(payload: dict):
             "metrics": {"latency": 0, "totalDocs": len(documents)}
         }
 
-    k = max(k, rerank_k)  # guarantee enough candidates
-    initial_results = vector_store.search(query, k=k)
+    required_k = max(k, rerank_k, 10)  # ensure enough pool
+    initial_results = vector_store.search(query, k=required_k)
 
     if not initial_results:
         return {
@@ -81,12 +81,19 @@ async def search(payload: dict):
 
         reranked_flag = False
 
+        if len(final_results) < rerank_k:
+            # fallback: use additional vector results
+            fallback_needed = rerank_k - len(final_results)
+            additional = initial_results[len(final_results):len(final_results)+fallback_needed]
+            final_results.extend(additional)
+
+
     # ---- FINAL SANITY CHECK ----
     cleaned_results = []
     for r in final_results:
         cleaned_results.append({
             "id": int(r["id"]),
-            "score": float(max(0.0, min(1.0, r["score"]))),
+            "score": round(float(max(0.0, min(1.0, r["score"]))), 4),
             "content": r["content"],
             "metadata": r["metadata"]
         })
@@ -100,7 +107,7 @@ async def search(payload: dict):
         "results": cleaned_results,
         "reranked": reranked_flag,
         "metrics": {
-            "latency": latency,
-            "totalDocs": len(documents)
+            "latency": int(latency),
+            "totalDocs": int(len(documents))
         }
     }
