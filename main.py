@@ -1,8 +1,5 @@
-# main.py
-
 from fastapi import FastAPI
 import time
-import os
 from fastapi.middleware.cors import CORSMiddleware
 
 from data_loader import fetch_scientific_abstracts
@@ -11,19 +8,19 @@ from reranker import rerank_results
 
 app = FastAPI()
 
-# Add CORS middleware
+# CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact origins
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Load documents at startup
+# Load documents
 documents = fetch_scientific_abstracts()
 vector_store = VectorStore(documents)
-print("Total documents fetched:", len(documents))
+
 
 @app.post("/search")
 async def search(payload: dict):
@@ -38,17 +35,24 @@ async def search(payload: dict):
         return {
             "results": [],
             "reranked": False,
-            "metrics": {"latency": 0, "totalDocs": len(documents)}
+            "metrics": {
+                "latency": 0,
+                "totalDocs": len(documents)
+            }
         }
 
-    required_k = max(k, rerank_k, 10)  # ensure enough pool
+    # Ensure enough candidates
+    required_k = max(k, rerank_k, 10)
     initial_results = vector_store.search(query, k=required_k)
 
     if not initial_results:
         return {
             "results": [],
             "reranked": False,
-            "metrics": {"latency": 0, "totalDocs": len(documents)}
+            "metrics": {
+                "latency": 0,
+                "totalDocs": len(documents)
+            }
         }
 
     # ---------- RERANK ----------
@@ -56,7 +60,7 @@ async def search(payload: dict):
         final_results = rerank_results(query, initial_results, top_k=rerank_k)
         reranked_flag = True
     else:
-        # Normalize FAISS scores manually to 0-1
+        # Normalize FAISS scores to 0–1
         scores = [r["score"] for r in initial_results]
         min_s = min(scores)
         max_s = max(scores)
@@ -64,42 +68,39 @@ async def search(payload: dict):
         normalized = []
         for r in initial_results:
             if max_s == min_s:
-                score = 1.0
+                score = 0.5
             else:
                 score = (r["score"] - min_s) / (max_s - min_s)
 
             normalized.append({
                 "id": r["id"],
-                "score": float(round(score, 4)),
+                "score": float(score),
                 "content": r["content"],
                 "metadata": r["metadata"]
             })
 
-        final_results = sorted(
-            normalized, key=lambda x: x["score"], reverse=True
-        )[:rerank_k]
-
+        normalized.sort(key=lambda x: x["score"], reverse=True)
+        final_results = normalized[:rerank_k]
         reranked_flag = False
 
-        if len(final_results) < rerank_k:
-            # fallback: use additional vector results
-            fallback_needed = rerank_k - len(final_results)
-            additional = initial_results[len(final_results):len(final_results)+fallback_needed]
-            final_results.extend(additional)
-
-
-    # ---- FINAL SANITY CHECK ----
+    # ---------- CLEAN + STRICT SCORE CLAMP ----------
     cleaned_results = []
-    for r in final_results:
+
+    for r in final_results[:rerank_k]:
+        safe_score = float(r["score"])
+
+        # STRICT (0,1) range
+        if safe_score <= 0:
+            safe_score = 0.0001
+        elif safe_score >= 1:
+            safe_score = 0.9999
+
         cleaned_results.append({
             "id": int(r["id"]),
-            "score": round(float(max(0.0, min(1.0, r["score"]))), 4),
+            "score": round(safe_score, 4),
             "content": r["content"],
             "metadata": r["metadata"]
         })
-
-    cleaned_results = cleaned_results[:rerank_k]
-
 
     latency = int((time.time() - start_time) * 1000)
 
@@ -107,7 +108,7 @@ async def search(payload: dict):
         "results": cleaned_results,
         "reranked": reranked_flag,
         "metrics": {
-            "latency": int(latency),
-            "totalDocs": int(len(documents))
+            "latency": latency,
+            "totalDocs": len(documents)
         }
     }
