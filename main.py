@@ -3,12 +3,22 @@
 from fastapi import FastAPI
 import time
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 from data_loader import fetch_scientific_abstracts
 from vector_store import VectorStore
 from reranker import rerank_results
 
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, specify exact origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load documents at startup
 documents = fetch_scientific_abstracts()
