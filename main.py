@@ -90,6 +90,18 @@ async def search(payload: dict):
             "metadata": r["metadata"]
         })
 
+        # Ensure exactly rerank_k results
+        while len(cleaned_results) < rerank_k:
+            cleaned_results.append({
+                "id": -1,
+                "score": 0.0,
+                "content": "",
+                "metadata": {}
+            })
+
+        cleaned_results = cleaned_results[:rerank_k]
+
+
     latency = int((time.time() - start_time) * 1000)
 
     return {

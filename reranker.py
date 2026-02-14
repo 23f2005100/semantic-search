@@ -17,7 +17,7 @@ def rerank_results(query, documents, top_k=5):
 
 
     reranked = []
-    for result in response.results:
+    for result in response.results[:top_k]:
         original_doc = documents[result.index]
         
         # Normalize relevance score (already ~0-1 but ensure)
